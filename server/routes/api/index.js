@@ -11,6 +11,7 @@ const {
     handleDeleteSubject,
     handleRetrieveAllSubjectsByUser,
     handleDeleteUser,
+    handleSearchSubjects,
 } = require('./handlers/index')
 
 const router = new Router()
@@ -37,6 +38,9 @@ router.get('/api/subjects/:subjectId', jwtParser, withErrorHandling(handleRetrie
 
 // retrieve user's subjects
 router.get('/api/subjects', jwtParser, withErrorHandling(handleRetrieveAllSubjectsByUser));
+
+// search subjects
+router.get('/api/search/subjects', withErrorHandling(handleSearchSubjects))
 
 // delete subject
 router.delete('/api/subjects/delete/:subjectId', jwtParser, withErrorHandling(handleDeleteSubject));
