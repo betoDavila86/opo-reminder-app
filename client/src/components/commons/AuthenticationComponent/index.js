@@ -19,8 +19,6 @@ function AuthenticationComponent({ title, navigation, onLogin, onRegister, error
 
     return (<>
         <form className="credentials" onSubmit={submitHandler}>
-            {/* {title === "Acceso" && <FontAwesomeIcon icon="sign-in-alt" className="credentials__header icon" />}
-            {title === "Registro" && <FontAwesomeIcon icon="user-plus" className="credentials__header icon" />} */}
             <p className="credentials__header">{title}</p>
             <div className="credentials__separator"></div>
             {title === "Registro" && <input type="text" name="fullname" className="credentials__input" placeholder="Pepito Grillo" required />}

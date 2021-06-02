@@ -16,13 +16,13 @@ module.exports = (userId, subjectId) => {
                 .findById(subjectId).populate('creator').lean()
                 .then(subject => {
                     if (!subject) throw new NotFoundError(`Tema con id ${subjectId} no encontrado`);
-                    if (subject.creator._id !== userId) throw new AuthError(`No tienes permiso para ver este tema`);
+                    if (subject.creator._id.toString() !== userId) throw new AuthError(`No tienes permiso para ver este tema`);
 
                     subject.id = subject._id;
                     delete subject.__v;
                     delete subject._id;
 
-                    subject.creator.id = subject.creator._id
+                    subject.creator.id = subject.creator._id.toString()
                     delete subject.creator._id
                     delete subject.creator.password
                     delete subject.creator.__v

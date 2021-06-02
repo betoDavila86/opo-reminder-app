@@ -1680,3 +1680,554 @@ error 2021-05-18T15:56:19.281Z - AuthError: usuario o contraseña incorrectos
     at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
     at runMicrotasks (<anonymous>)
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-05-20T07:29:21.125Z - stopping server
+info 2021-05-30T14:04:52.498Z - starting server
+info 2021-05-30T14:04:52.970Z - server running on port 4000
+error 2021-05-30T14:13:26.995Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-30T14:13:34.707Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-30T14:13:41.123Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-30T14:13:45.885Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-05-31T06:05:05.600Z - starting server
+error 2021-05-31T06:05:06.020Z - /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-user.js:8
+            .then(user => res.status(200).json({ user))
+                                                     ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:6:25)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:15:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-05-31T06:05:06.023Z - stopping server
+info 2021-05-31T06:05:07.430Z - starting server
+info 2021-05-31T06:05:07.839Z - server running on port 4000
+info 2021-05-31T10:23:21.832Z - stopping server
+info 2021-05-31T12:16:10.081Z - starting server
+info 2021-05-31T12:16:10.662Z - server running on port 4000
+error 2021-05-31T16:25:37.918Z - TypeError: creador del tema undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:13:17)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-create-subject.js:7:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+info 2021-05-31T16:28:05.895Z - stopping server
+info 2021-05-31T16:28:15.310Z - starting server
+info 2021-05-31T16:28:15.758Z - server running on port 4000
+error 2021-05-31T16:28:21.873Z - TypeError: creador del tema undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:13:17)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-create-subject.js:7:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+error 2021-05-31T16:28:54.021Z - TypeError: creador del tema undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:13:17)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-create-subject.js:7:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+error 2021-05-31T16:32:30.201Z - TypeError: creador del tema undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:13:17)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-create-subject.js:7:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+info 2021-05-31T16:47:49.734Z - starting server
+info 2021-05-31T16:47:50.176Z - server running on port 4000
+info 2021-05-31T16:48:02.038Z - starting server
+info 2021-05-31T16:48:02.451Z - server running on port 4000
+info 2021-05-31T16:48:15.153Z - starting server
+info 2021-05-31T16:48:15.571Z - server running on port 4000
+info 2021-05-31T16:48:18.286Z - starting server
+error 2021-05-31T16:48:18.701Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:19
+        })
+        ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-create-subject.js:1:23)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:3:26)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-05-31T16:48:18.707Z - stopping server
+info 2021-05-31T16:48:21.768Z - starting server
+info 2021-05-31T16:48:22.522Z - server running on port 4000
+info 2021-05-31T16:48:32.992Z - starting server
+info 2021-05-31T16:48:33.424Z - server running on port 4000
+info 2021-05-31T16:48:51.638Z - starting server
+info 2021-05-31T16:48:52.061Z - server running on port 4000
+info 2021-05-31T16:48:57.039Z - starting server
+info 2021-05-31T16:48:57.424Z - server running on port 4000
+info 2021-05-31T16:48:58.320Z - starting server
+info 2021-05-31T16:48:58.731Z - server running on port 4000
+info 2021-05-31T16:49:02.641Z - starting server
+info 2021-05-31T16:49:03.030Z - server running on port 4000
+info 2021-05-31T16:49:04.073Z - starting server
+info 2021-05-31T16:49:04.453Z - server running on port 4000
+info 2021-05-31T16:49:21.179Z - starting server
+info 2021-05-31T16:49:21.816Z - server running on port 4000
+info 2021-05-31T16:49:23.844Z - starting server
+info 2021-05-31T16:49:24.267Z - server running on port 4000
+error 2021-05-31T16:50:23.114Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T16:52:31.701Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T16:56:47.042Z - ConflictError: Ya añadiste un tema con el número 2
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T16:58:44.744Z - ConflictError: Ya añadiste un tema con el número 2
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T16:59:10.657Z - ConflictError: Ya añadiste un tema con el número 2
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T16:59:15.843Z - ConflictError: Ya añadiste un tema con el número 2
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T17:03:40.088Z - ConflictError: Ya añadiste un tema con el número 2
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T17:07:55.668Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T17:09:52.228Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T17:12:00.125Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T17:15:22.717Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T17:25:02.782Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T17:30:04.310Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T17:30:35.136Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T17:30:41.757Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T17:30:48.840Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T17:31:00.282Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-05-31T17:31:58.104Z - starting server
+info 2021-05-31T17:31:58.643Z - server running on port 4000
+error 2021-05-31T17:32:02.013Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T17:32:26.050Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T17:32:53.353Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-05-31T17:34:05.391Z - starting server
+info 2021-05-31T17:34:05.964Z - server running on port 4000
+error 2021-05-31T17:34:25.404Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-05-31T17:34:48.761Z - starting server
+error 2021-05-31T17:34:49.226Z - /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:31
+            res.status(status).json({ error.message })
+                                           ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:19:27)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/index.js:2:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-05-31T17:34:49.231Z - stopping server
+info 2021-05-31T17:35:00.017Z - starting server
+info 2021-05-31T17:35:00.621Z - server running on port 4000
+info 2021-05-31T17:35:06.003Z - starting server
+info 2021-05-31T17:35:06.490Z - server running on port 4000
+info 2021-05-31T17:35:13.694Z - starting server
+info 2021-05-31T17:35:14.206Z - server running on port 4000
+error 2021-05-31T17:35:25.688Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-05-31T17:35:53.768Z - starting server
+info 2021-05-31T17:35:54.236Z - server running on port 4000
+error 2021-05-31T17:36:17.192Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-05-31T17:39:05.745Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T10:59:23.217Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:17:39
+error 2021-06-01T10:59:43.137Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:17:39
+error 2021-06-01T11:00:11.737Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:17:39
+error 2021-06-01T11:00:26.766Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:17:39
+error 2021-06-01T11:01:01.219Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:17:39
+info 2021-06-01T11:02:01.908Z - starting server
+info 2021-06-01T11:02:02.449Z - server running on port 4000
+info 2021-06-01T11:02:04.725Z - starting server
+info 2021-06-01T11:02:05.168Z - server running on port 4000
+info 2021-06-01T11:02:12.431Z - starting server
+info 2021-06-01T11:02:12.834Z - server running on port 4000
+error 2021-06-01T11:02:21.930Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:17:39
+info 2021-06-01T11:02:48.493Z - starting server
+info 2021-06-01T11:02:49.046Z - server running on port 4000
+info 2021-06-01T11:02:52.589Z - starting server
+info 2021-06-01T11:02:53.000Z - server running on port 4000
+info 2021-06-01T11:02:56.567Z - starting server
+info 2021-06-01T11:02:56.979Z - server running on port 4000
+error 2021-06-01T11:03:12.930Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-01T11:03:53.215Z - starting server
+info 2021-06-01T11:03:53.756Z - server running on port 4000
+error 2021-06-01T11:04:00.786Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-01T11:16:37.179Z - starting server
+error 2021-06-01T11:16:37.588Z - TypeError: Class constructor NotAllowedError cannot be invoked without 'new'
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/utils/custom-errors/index.js:4:19)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:1:26)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/logic/register-user.js:1:21)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-01T11:16:37.589Z - stopping server
+info 2021-06-01T11:17:03.469Z - starting server
+info 2021-06-01T11:17:03.882Z - server running on port 4000
+info 2021-06-01T11:18:17.352Z - starting server
+info 2021-06-01T11:18:17.909Z - server running on port 4000
+info 2021-06-01T11:18:21.937Z - starting server
+error 2021-06-01T11:18:22.445Z - /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:31
+            res.status(status).send({ message: });
+                                               ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:19:27)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/index.js:2:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-01T11:18:22.448Z - stopping server
+info 2021-06-01T11:18:23.814Z - starting server
+info 2021-06-01T11:18:24.291Z - server running on port 4000
+info 2021-06-01T11:18:29.880Z - starting server
+info 2021-06-01T11:18:30.284Z - server running on port 4000
+info 2021-06-01T11:18:36.805Z - starting server
+info 2021-06-01T11:18:37.511Z - server running on port 4000
+info 2021-06-01T11:18:44.714Z - starting server
+info 2021-06-01T11:18:45.118Z - server running on port 4000
+info 2021-06-01T11:18:54.511Z - starting server
+info 2021-06-01T11:18:54.935Z - server running on port 4000
+info 2021-06-01T11:18:55.506Z - starting server
+info 2021-06-01T11:18:55.887Z - server running on port 4000
+error 2021-06-01T11:19:04.059Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-01T11:19:22.160Z - starting server
+info 2021-06-01T11:19:22.599Z - server running on port 4000
+error 2021-06-01T11:19:59.223Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:20:25.793Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:20:57.649Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:21:29.900Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:22:26.555Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:24:06.684Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:24:27.782Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:24:45.060Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:25:02.679Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:26:37.132Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:27:14.054Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:28:16.321Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:29:01.285Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:29:53.842Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:31:58.462Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:32:43.536Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:39:30.904Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:40:04.061Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:40:57.507Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:42:16.372Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:42:31.973Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:42:45.019Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:49:06.930Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:49:51.125Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:51:51.801Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:53:13.464Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:57:55.887Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T11:58:13.545Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T12:00:09.561Z - ConflictError: Ya añadiste un tema con el número 3
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T14:56:47.861Z - ConflictError: Ya añadiste un tema con el número 2
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:42:44.652Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:45:10.795Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:46:00.618Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:47:18.698Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:47:35.709Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:49:07.216Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:51:22.911Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:52:29.447Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:52:50.604Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:52:58.808Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:53:20.662Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:54:23.148Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:54:41.175Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:56:17.600Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:56:38.576Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:56:57.826Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-01T15:57:04.442Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:63
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-01T15:59:09.235Z - starting server
+info 2021-06-01T15:59:09.652Z - server running on port 4000
+info 2021-06-01T15:59:17.561Z - starting server
+info 2021-06-01T15:59:17.948Z - server running on port 4000
+info 2021-06-01T15:59:53.922Z - starting server
+info 2021-06-01T15:59:54.329Z - server running on port 4000

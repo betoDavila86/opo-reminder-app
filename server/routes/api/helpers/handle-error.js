@@ -28,5 +28,5 @@ module.exports = handler =>
                     break
             }
 
-            res.status(status).json({ error: error.message })
+            res.status(status).json({ message: error.message});
         })

@@ -6,7 +6,7 @@ import Button from '../Button'
 const ErrorModal = ({ title, message, onHideModal }) => {
     return (
         <div>
-            <div className="backdrop" />
+            <div onClick={onHideModal} className="backdrop" />
             <Card className="modal">
                 <header className="header">
                     <h2>{title}</h2>

@@ -1,18 +1,30 @@
+@import ../../../sass/_global
+
 .credentials
-    width: 40%
-    margin: 10.5% 30%
+    width: 87.5%
+    margin: 4rem 1.5rem
     box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.25)
     border-radius: 1em
     display: flex
     flex-direction: column
     font-size: 18px
+    background-color: white
+    animation-name: moveInLeft
+    animation-duration: 2s
+
+    &>a
+        color: inherit
+        cursor: pointer
+    
     &>*
-        margin: 2% auto
+        margin: 3% auto
 
     &__header
         font-size: 36px
-        color: #4466c5
+        color: $dark-blue
         font-weight: bold
+        animation-duration: 2s
+        animation-name: moveInRight
 
     &__separator
         width: 90%
@@ -23,16 +35,17 @@
     &__input
         width: 80%
         font-size: 18px
+        line-height: 1.7
         border: 0
         background-color: #ececec
         border-radius: 1em
         padding: 7.5px
 
     &__submit-button
-        width: 30%
+        width: 80%
         font-size: 24px
         color: white
-        background-color: #4466c5
+        background-color: $medium-blue
         padding: 7.5px
         border-radius: 1em
         border: 0
@@ -41,3 +54,28 @@
             opacity: 0.5
         &:active
             opacity: 0.25
+
+@keyframes moveInLeft
+    0%
+        opacity: 0
+        transform: translateX(-100px)
+
+    80%
+        transform: translateX(10px)
+        
+    100%
+        opacity: 1
+        transform: translateX(0)
+
+@keyframes moveInRight
+    0%
+        opacity: 0
+        transform: translateX(300px)
+
+    80%
+        transform: translateX(-20px)
+        
+    100%
+        opacity: 1
+        transform: translateX(0)
+        

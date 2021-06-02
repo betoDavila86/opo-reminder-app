@@ -2,7 +2,7 @@ const validations = require('../routes/api/helpers/validations')
 const { ConflictError, NotFoundError } = require('../utils/custom-errors')
 const { Subject, User } = require('../models')
 
-module.exports = (userId, number, title, studyFrequency, knowledge, setGoalDate, description, creator) => {
+module.exports = (userId, number, title, studyFrequency, knowledge, setGoalDate, description) => {
     validations.string(number, 'número de tema');
     validations.string(title, 'título del tema');
     validations.string(studyFrequency, 'frecuencia de estudio');
@@ -10,7 +10,8 @@ module.exports = (userId, number, title, studyFrequency, knowledge, setGoalDate,
     validations.knowledge(knowledge);
     if (description !== undefined) validations.string(description, 'breve descripción del tema');
     if (setGoalDate !== undefined) validations.date(setGoalDate);
-    validations.string(creator, 'creador del tema');
+
+    const creator = userId.toString();
 
     return User
         .findById(userId)
@@ -21,7 +22,7 @@ module.exports = (userId, number, title, studyFrequency, knowledge, setGoalDate,
             return Subject
                 .findOne({ number })
                 .then(subject => {
-                    if (subject && subject.creator.toString() === userId) throw new ConflictError(`Ya añadiste un tema con el número ${number}`);
+                    if (subject) throw new ConflictError(`Ya añadiste un tema con el número ${number}`);
 
                 })
                 .then(() => { Subject.create({ number, title, studyFrequency, knowledge, setGoalDate, description, creator }) })

@@ -22,13 +22,13 @@ module.exports = {
             };
 
             if (status >= 400 && status < 500) {
-                const { error } = await response.json();
+                const { message } = await response.json();
 
-                if (status === 401) throw new NotAllowedError(error);
+                if (status === 401) throw new NotAllowedError(message);
                 
-                if (status === 404) throw new NotFoundError(error);
+                if (status === 404) throw new NotFoundError(message);
 
-                throw new Error(error);
+                throw new Error(message);
             }
 
             throw new Error('server error');
@@ -54,28 +54,28 @@ module.exports = {
             }
 
             if (status >= 400 && status < 500) {
-                const { error } = await response.json();
+                const { message } = await response.json();
 
-                if (status === 401) throw new NotAllowedError(error);
+                if (status === 401) throw new NotAllowedError(message);
                 
-                if (status === 404) throw new NotFoundError(error);
+                if (status === 404) throw new NotFoundError(message);
 
-                throw new Error(error);
+                throw new Error(message);
             }
 
             throw new Error('server error');
         })();
     },
 
-    patch: async function (url, body, token = undefined) {
+    patch: async function (url, body = undefined, token = undefined) {
         return (async () => {
             const options = {
                 method: 'PATCH',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(body instanceof Object ? body : { body })
+                headers: { 'Content-Type': 'application/json' }
             };
 
             if (token) options.headers = { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` };
+            if (body) options.body = JSON.stringify(body instanceof Object ? body : { body });
 
             const response = await _fetch(url, options);
 

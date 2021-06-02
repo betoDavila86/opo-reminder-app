@@ -31,17 +31,17 @@ module.exports = function (email, password) {
         }
 
         if (status >= 400 && status < 500) {
-            const { error } = await response.json();
+            const { message } = await response.json();
 
             if (status === 401) {
-                throw new NotAllowedError(error);
+                throw new NotAllowedError(message);
             }
 
             if (status === 404) {
-                throw new NotFoundError(error);
+                throw new NotFoundError(message);
             }
 
-            throw new Error(error);
+            throw new Error(message);
         }
 
         throw new Error('server error');

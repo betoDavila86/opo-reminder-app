@@ -12,43 +12,41 @@ const Header = ({ onSearch, user, navigation, onLogout, onGoHome }) => {
     return (<>
         <header className="header">
             <div className="header__grid">
-                <p className="header__title">
-                    {/* <FontAwesomeIcon icon="book" className="icon" onClick={event => {
-                        event.preventDefault();
-                        onGoHome()
-                    }} /> */}
-                OpO Reminder</p>
+                {!user && <>
+                    <p className="header__title">OPO REMINDER</p>
+                    <p className="header__subtitle">Don't study harder, study smarter</p>
+                </>}
 
                 {user && (<>
-                    <p className="header__welcome">Bienvenido, {user.fullname}!</p>
-                    {/* <FontAwesomeIcon icon="user" className="user icon" /> */}
+                    <div className="header__top-user">
+                        <p className="header__welcome">Bienvenido, {user.fullname}!</p>
+                        <a href="#" className="header__logout" onClick={event => {
+                            event.preventDefault();
+                            onLogout();
+                        }}> Logout</a>
+                    </div>
                     <div className="header__nav-container">
                         <nav className="header__nav">
                             <form onSubmit={onSubmit} className="header__search">
-                                <label htmlFor="search">Buscar tema</label>
-                                <input type='search' id="search" name='q' placeholder='Buscar un tema'></input>
+                                <label htmlFor="search">Buscar</label>
+                                <input type='search' id="search" name='q' placeholder='Título del tema'></input>
                                 <button type="submit">Buscar</button>
                             </form>
-                            {/* <FontAwesomeIcon icon="sign-out-alt" className="logout icon" onClick={event => {
-                                event.preventDefault();
-                                onLogout();
-                            }} /> */}
-                            <p>Logout</p>
                         </nav>
                     </div>
                 </>)}
 
-                {!user && (<>
+                {/* {!user && (<>
                     <p className="header__welcome">Entra o Regístrate</p>
-                    {/* <FontAwesomeIcon icon="sign-in-alt" className="header__sign-in icon" onClick={event => {
+                    <FontAwesomeIcon icon="sign-in-alt" className="header__sign-in icon" onClick={event => {
                         event.preventDefault();
                         navigation('/sign-in');
-                    }} /> */}
-                    {/* <FontAwesomeIcon icon="user" className="header__sign-up icon" onClick={event => {
+                    }} />
+                    <FontAwesomeIcon icon="user" className="header__sign-up icon" onClick={event => {
                         event.preventDefault();
                         navigation('/sign-up');
-                    }} /> */}
-                </>)}
+                    }} />
+                </>)} */}
             </div>
         </header>
     </>)

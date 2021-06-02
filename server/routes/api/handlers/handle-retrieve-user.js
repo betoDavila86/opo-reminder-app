@@ -5,7 +5,7 @@ module.exports = (req, res, handleError) => {
         const { userId } = req
 
         retrieveUser(userId)
-            .then(user => res.status(200).json({ user }))
+            .then(user => res.status(200).json(user))
             .catch(handleError)
     } catch (error) {
         handleError(error)
