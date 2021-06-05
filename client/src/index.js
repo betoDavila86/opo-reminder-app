@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.sass';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter as Router } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import { context } from './logic';
 
 const { REACT_APP_API_URL: API_URL } = process.env;
@@ -13,9 +13,9 @@ context.storage = sessionStorage;
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <BrowserRouter>
       <App />
-    </Router>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

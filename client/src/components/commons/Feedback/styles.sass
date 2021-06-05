@@ -1,12 +1,35 @@
 @import ../../../sass/_global
 
+.backdrop
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100vh
+    z-index: 10
+    background: rgba(0, 0, 0, 0.75)
+
 .feedback
-    font-family: inherit
-    font-size: 18px
-    font-weight: bold
-    text-align: center
+    position: fixed
+    top: 30vh
+    left: 10%
+    width: 80%
+    z-index: 100
+    overflow: hidden
+    border: 1px solid green
+    color: green
+    background-color: #87f8ef9f
+    border-radius: 3px
+
     &__text
-        &.error
-            color: red
-        &.success
-            color: $light-blue
+        padding: 1rem
+
+.actions
+    padding: 1rem
+    display: flex
+    justify-content: flex-end
+
+@media (min-width: 768px)
+    .feedback
+        left: calc(50% - 20rem)
+        width: 40rem

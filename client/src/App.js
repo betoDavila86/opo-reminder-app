@@ -10,7 +10,10 @@ import ErrorModal from './components/commons/ErrorModal';
 import Quote from './components/Quotes';
 import SubjectDetail from './components/SubjectDetail';
 import NotFound from './components/NotFound'
-import Spinner from './components/commons/Spinner'
+import Spinner from './components/commons/Spinner';
+import Card from './components/commons/Card';
+import EditSubjectForm from './components/EditSubjectForm';
+import Feedback from './components/commons/Feedback';
 import { Route, withRouter, Redirect, Switch } from 'react-router-dom';
 
 import {
@@ -23,27 +26,25 @@ import {
   searchSubjects,
   retrieveMySubjects,
   retrieveSubjectDetail,
+  modifySubject,
 } from './logic'
 
 function App({ history }) {
 
   const [feedback, setFeedback] = useState();
   const [user, setUser] = useState();
-  // const [view, setView] = useState('quote');
   const [subjects, setSubjects] = useState();
   const [subject, setSubject] = useState();
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
-  // const [screen, setScreen] = useState('');
+  const [success, setSuccess] = useState(false);
 
   useEffect(() => {
-    setLoading(true);
     return (async () => {
       if (isAuth()) {
+        setLoading(true);
         const user = await retrieveUser()
-        const { subjects } = await retrieveMySubjects()
-        setUser(user)
-        setSubjects(subjects);
+        setUser(user);
         setLoading(false);
         history.push('/home');
       } else {
@@ -79,7 +80,7 @@ function App({ history }) {
   const registerHandler = async (fullname, email, password) => {
     try {
       await registerUser(fullname, email, password);
-      history.push('/sign-in');
+      history.push('sign-in');
 
     } catch ({ message }) {
       setFeedback(message);
@@ -91,7 +92,6 @@ function App({ history }) {
     try {
       delete context.storage.token;
       setUser(null);
-      history.push('/sign-in');
     } catch ({ message }) {
       setError(true);
       setFeedback(message);
@@ -99,13 +99,18 @@ function App({ history }) {
   }
 
   const onGoHomeHandler = () => {
-    // setScreen('');
     history.push('/home');
   }
 
-  // const screenHandler = (page) => {
-  //   setScreen(page);
-  // }
+  const retrieveMySubjectsHandler = async () => {
+    try {
+      const { subjects } = await retrieveMySubjects();
+      setSubjects(subjects);
+    } catch ({ message }) {
+      setError(true);
+      setFeedback(message);
+    }
+  }
 
   const addNewSubjectHandler = async (number, title, knowledge, studyFrequency, setGoalDate, description) => {
     try {
@@ -120,7 +125,7 @@ function App({ history }) {
 
   const searchSubjectsHandler = async (query) => {
     try {
-      const result = await searchSubjects(query)
+      const { result } = await searchSubjects(query)
       console.log(result)
     } catch ({ message }) {
       setFeedback(message);
@@ -138,42 +143,53 @@ function App({ history }) {
     }
   }
 
+  const confirmEditHandler = async (subjectId, update) => {
+    try {
+      const { msg } = await modifySubject(subjectId, update)
+      setSuccess(true);
+      setFeedback(msg);
+    } catch ({ message }) {
+      setError(true);
+      setFeedback(message);
+    }
+  }
+
   const modalHandler = () => {
     if (error) setError(false);
+  }
+
+  const feedbackHandler = () => {
+    if (success) setSuccess(false);
   }
 
 
   return (
     <div className="App">
-      <Header user={user} onSearch={searchSubjectsHandler} navigation={pageHandler} onLogout={logoutHandler} onGoHome={onGoHomeHandler} />
+      <Header user={user} onSearch={searchSubjectsHandler} navigation={pageHandler} onLogout={logoutHandler} onGoToHome={onGoHomeHandler} />
       <Wrapper>
         {error && <ErrorModal title="Error" message={feedback} onHideModal={modalHandler} />}
         <Route exact path="/" render={() => isAuth() ? <Redirect to="/home" /> : <Redirect to="/sign-in" />} />
         <Route path="/sign-in" render={() => isAuth() ? <Redirect to="/home" /> : <AuthenticationComponent title="Acceso" navigation={pageHandler} onLogin={loginHandler} error={feedback} />} />
         <Route path="/sign-up" render={() => isAuth() ? <Redirect to="/home" /> : <AuthenticationComponent title="Registro" navigation={pageHandler} onRegister={registerHandler} error={feedback} />} />
-        {user ? <Controls user={user} /> : null}
+        {user ? <Controls user={user} onRetrieveMySubjects={retrieveMySubjectsHandler} /> : null}
         <Switch>
           {loading && <Spinner />}
+          {success && <Feedback message={feedback} onHideModal={feedbackHandler}/>}
           <Route path="/home" render={() => <Quote />} />
-          <Route path="/my-subjects/:subjectId" render={() => <SubjectDetail subject={subject} />} />
+          <Route path="/my-subjects/:subjectId">
+            {subject && <SubjectDetail subject={subject} />}
+          </Route>
           <Route path="/my-subjects">
-            {subjects && subjects.length ? <SubjectList subjects={subjects} onDetail={subjectDetailHandler} /> : <p>No hay temas para mostrar</p>}
+            {subjects && subjects.length ? <SubjectList subjects={subjects} onDetail={subjectDetailHandler} /> : <Card className="secondary"><NotFound type="empty" /></Card>}
           </Route>
           <Route path="/new-subject" render={() => <NewSubjectForm error={feedback} onAddSubject={addNewSubjectHandler} />} />
-          {/* <Route path="/home" render={() => (<>
-            {view === 'quote' && <Quote />}
-            {screen === 'my-subjects' &&
-              <>
-                {
-                  subjects && subjects.length ? <SubjectList subjects={subjects} onDetail={subjectDetailHandler} /> : <p>No hay temas que mostrar</p>
-                }
-              </>
-            }
-            {screen === 'new-subject' && <NewSubjectForm error={feedback} onAddSubject={addNewSubjectHandler} />}
-            {screen === 'subject' && <SubjectDetail subject={subject} />}
-          </>)} /> */}
+          <Route path="/subject-modify/:subjectId">
+            <EditSubjectForm subject={subject} onConfirmEdit={confirmEditHandler}/>
+          </Route>
           <Route path="*">
-            <NotFound />
+            {user && <Card className='secondary'>
+              <NotFound type='not-found'/>
+            </Card>}
           </Route>
         </Switch>
       </Wrapper>

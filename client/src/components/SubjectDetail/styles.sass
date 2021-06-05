@@ -1,3 +1,5 @@
+@import ../../sass/_global
+
 .subject
     &__container
         width: 85%
@@ -5,9 +7,44 @@
         display: flex
         flex-direction: column
     
+    &__separator
+        width: 100%
+        height: 1px
+        background-color: darkgrey
+        margin: 2% auto
+    
     &__container > *
         margin: 3% 0
 
     &__footer
         display: flex
         justify-content: space-between
+
+    &__creator
+        color: rgb(156, 155, 155)
+
+    &__modify
+        float: right
+
+    &__modify > *
+        margin-right: 3px
+
+.btn
+    font: inherit
+    border: none
+    background: $grey-main
+    color: white
+    padding: 0.25rem .5rem
+    cursor: pointer
+    border-radius: 5px
+    font-size: 18px
+    font-weight: bold
+    text-decoration: none
+
+    &:hover,
+    &:active
+        background: $dark-blue
+        border-color: $dark-blue
+
+    &:focus
+        outline: none

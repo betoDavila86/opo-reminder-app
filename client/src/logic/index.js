@@ -6,5 +6,6 @@ module.exports = {
     retrieveUser: require('./retrieve-user'),
     createSubject: require('./create-subject'),
     retrieveMySubjects: require('./retrieve-my-subjects'),
-    retrieveSubjectDetail: require('./retrieve-subject-detail') 
+    retrieveSubjectDetail: require('./retrieve-subject-detail'),
+    modifySubject: require('./modify-subject'), 
 }

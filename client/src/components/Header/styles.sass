@@ -2,7 +2,7 @@
 
 .header
     width: 100%
-    height: 100px
+    height: 125px
     background-color: #4466c5
 
     &__grid
@@ -10,9 +10,16 @@
         font-size: 2rem
         height: 100%
 
-    &__top-user
+    &__user
         display: flex
         justify-content: space-between
+        height: 100%
+
+    &__top-end
+        width: 50%
+        display: flex
+        flex-direction: column
+        align-items: flex-end
 
     &__title
         display: block
@@ -30,40 +37,44 @@
         margin-left: 5px
         letter-spacing: 10px
 
-    &__search
-        width: 85%
-        margin: auto
+    &__form
+        min-width: 220px
+        padding: 1rem 0
+    
+    &__form input
+        border: 1px solid grey
 
-    &__search input, label, button
+    &__form input, button
         margin: 2%
 
-    &__search label
-        font-size: 18px
-
-    &__search button
+    &__form button
         border-radius: 5px
         cursor: pointer
         padding: 5px
-        background-color: $grey-main
+        background-color: transparent
         color: white
-        border-style: none
-        box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.25)
+        border: none
         font-family: inherit
         font-size: 15px
 
-    &__search input
+    &__form input
         line-height: 2
         border-radius: 2px
+        text-indent: 10px
+        margin: 0
 
     &__welcome
-        font-size: 18px
-        margin: 2%
+        font-size: 20px
 
     &__user
 
     &__logout
         text-decoration: none
-        font-size: 18px
+        font-size: 16px
         color: inherit
-        margin: auto 2%
         cursor: pointer
+
+    &__logout:hover,
+    &__logout:active
+        text-decoration: underline
+        font-size: 20px

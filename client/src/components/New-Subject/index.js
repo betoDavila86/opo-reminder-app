@@ -61,7 +61,7 @@ const NewSubject = ({ onAddSubject }) => {
                 </div>
                 <div className="input-field">
                     <label htmlFor="description">Descripción</label>
-                    <textarea name="description" rows="5" cols="38" placeholder="Breve descripción del tema a añadir"></textarea>
+                    <textarea name="description" rows="5" cols="35" placeholder="Breve descripción del tema a añadir"></textarea>
                 </div>
                 <Button type="submit">Añadir</Button>
             </form>

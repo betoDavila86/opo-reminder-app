@@ -2,6 +2,7 @@ import React from 'react';
 import './styles.sass';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Feedback from '../Feedback';
+import { Link } from 'react-router-dom';
 
 function AuthenticationComponent({ title, navigation, onLogin, onRegister, error }) {
 
@@ -28,14 +29,8 @@ function AuthenticationComponent({ title, navigation, onLogin, onRegister, error
             {error && <Feedback feedback={error} />}
 
             <button type="submit" className="credentials__submit-button">Continuar</button>
-            {title === "Acceso" && <a href="" onClick={event => {
-                event.preventDefault();
-                navigation('/sign-up')
-            }}>¿No eres miembro aún? Regístrate</a>}
-            {title === "Registro" && <a href="" onClick={event => {
-                event.preventDefault();
-                navigation('/sign-in')
-            }}>¿Ya estás registrado? Accede</a>}
+            {title === "Acceso" && <Link to="/sign-up">¿No eres miembro aún? Regístrate</Link>}
+            {title === "Registro" && <Link to="/sign-in">¿Ya estás registrado? Accede</Link>}
         </form>
     </>)
 }

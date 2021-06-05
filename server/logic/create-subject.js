@@ -20,7 +20,7 @@ module.exports = (userId, number, title, studyFrequency, knowledge, setGoalDate,
         })
         .then(() => {
             return Subject
-                .findOne({ number })
+                .findOne({ number, creator: userId })
                 .then(subject => {
                     if (subject) throw new ConflictError(`Ya añadiste un tema con el número ${number}`);
 

@@ -1,25 +1,37 @@
 import './styles.sass'
-import { useParams } from 'react-router-dom';
+import { useParams, useHistory, NavLink } from 'react-router-dom';
+import Card from '../commons/Card'
+import Button from '../commons/Button'
 
-const SubjectDetail = ({ subject }) => {
+const SubjectDetail = ({ subject, onRemoveSubject }) => {
 
     const params = useParams();
-    console.log(params.subjectId)
+    const history = useHistory();
+    const id = params.subjectId;
+    console.log(id)
 
-    const { number, title, creator, description, knowledge, setGoalDate } = subject
+    const { number, title, creator, description, knowledge, studyFrequency, setGoalDate } = subject
 
     return (
         <div className="subject__container">
-            <span>Atrás</span>
-            <div className="subject__header">
-                <h1>{number}. {title}</h1>
-                <p>Creado por: {creator.fullname}</p>
-            </div>
-            <p>Descripción: {description}</p>
-            <div className="subject__footer">
-                <span>¿Me lo sé? {knowledge}</span>
-                <span>Objetivo: {setGoalDate.split('T')[0]}</span>
-            </div>
+            <span onClick={() => history.replace('/my-subjects')}>Atrás</span>
+            <Card className="detail">
+                <div className="subject__header">
+                    <h1>{number}. {title}</h1>
+                    <div className="subject__separator"></div>
+                    <p className="subject__creator">{creator.fullname}</p>
+                </div>
+                <p><span>Descripción: </span>{description}</p>
+                <p><span>Estudio: </span>{studyFrequency}</p>
+                <div className="subject__footer">
+                    <p><span>¿Me lo sé? </span>{knowledge}</p>
+                    <p><span>Objetivo: </span>{setGoalDate.split('T')[0]}</p>
+                </div>
+                <div className="subject__modify">
+                    <NavLink to={`/subject-modify/${id}`} className="btn">Editar</NavLink>
+                    <Button clicked={onRemoveSubject}>Eliminar</Button>
+                </div>
+            </Card>
         </div>
     );
 }

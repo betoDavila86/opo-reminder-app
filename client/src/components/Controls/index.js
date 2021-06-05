@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.sass';
 import { NavLink } from 'react-router-dom';
 
-function Controls({ user }) {
+function Controls({ user, onRetrieveMySubjects }) {
     return (<>
         {user && (<>
             <nav className="nav">
@@ -12,17 +12,18 @@ function Controls({ user }) {
                     </div>
                     <ul className="nav__list">
                         <NavLink
-                            to="new-subject"
+                            to="/new-subject"
                             className="nav__option"
                             activeClassName="active">Nuevo tema
                             </NavLink>
                         <NavLink
-                            to="my-subjects"
+                            to="/my-subjects"
                             className="nav__option"
-                            activeClassName="active">Mis temas
+                            activeClassName="active"
+                            onClick={onRetrieveMySubjects}>Mis temas
                             </NavLink>
                         <NavLink
-                            to="priority"
+                            to="/priority"
                             className="nav__option"
                             activeClassName="active">Prioritarios
                             </NavLink>

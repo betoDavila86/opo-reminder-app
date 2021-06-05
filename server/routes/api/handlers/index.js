@@ -9,4 +9,5 @@ module.exports = {
     handleRetrieveAllSubjectsByUser: require('./handle-retrieve-all-subjects-by-user'),
     handleDeleteUser: require('./handle-delete-user'),
     handleSearchSubjects: require('./handle-search-subjects'),
+    handleModifySubject: require('./handle-modify-subject'),
 }

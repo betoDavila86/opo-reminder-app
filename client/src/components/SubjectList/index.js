@@ -1,4 +1,5 @@
 import './styles.sass';
+import { NavLink } from 'react-router-dom';
 
 const SubjectList = ({ subjects, onDetail }) => {
 
@@ -8,8 +9,10 @@ const SubjectList = ({ subjects, onDetail }) => {
                 <ul className="list">
                     {subjects.map(({ id, title, number, setGoalDate }) => {
                         return <li onClick={() => onDetail(id)} className="list__item" key={id}>
-                            <h2>{number}. {title}</h2>
-                            <p>Objetivo: {setGoalDate.split('T')[0]}</p>
+                            <NavLink activeClassName='active' to={`/my-subjects/${id}`}>
+                                <h2>{number}. {title}</h2>
+                                <p>Objetivo: {setGoalDate.split('T')[0]}</p>
+                            </NavLink>
                         </li>
                     })}
                 </ul>

@@ -12,6 +12,7 @@ const {
     handleRetrieveAllSubjectsByUser,
     handleDeleteUser,
     handleSearchSubjects,
+    handleModifySubject,
 } = require('./handlers/index')
 
 const router = new Router()
@@ -47,5 +48,8 @@ router.delete('/api/subjects/delete/:subjectId', jwtParser, withErrorHandling(ha
 
 // add subject to the collector(opo-bombo)
 router.patch('/api/bombo/:subjectId', jwtParser, withErrorHandling(handleAddSubjectToCollector))
+
+// Update a subject
+router.patch('/api/subjects/:subjectId', jwtParser, withErrorHandling(handleModifySubject))
 
 module.exports = router

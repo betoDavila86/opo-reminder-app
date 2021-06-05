@@ -2231,3 +2231,995 @@ info 2021-06-01T15:59:17.561Z - starting server
 info 2021-06-01T15:59:17.948Z - server running on port 4000
 info 2021-06-01T15:59:53.922Z - starting server
 info 2021-06-01T15:59:54.329Z - server running on port 4000
+error 2021-06-02T15:40:32.248Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-03T07:36:20.574Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:74
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-03T07:36:33.994Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:74
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-03T07:37:12.130Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:74
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-03T07:37:23.716Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:74
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-03T07:39:17.145Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:74
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-03T07:41:11.232Z - starting server
+info 2021-06-03T07:41:11.765Z - server running on port 4000
+info 2021-06-03T07:41:12.886Z - starting server
+info 2021-06-03T07:41:13.349Z - server running on port 4000
+info 2021-06-03T07:41:15.457Z - starting server
+info 2021-06-03T07:41:15.868Z - server running on port 4000
+info 2021-06-03T07:41:23.114Z - starting server
+info 2021-06-03T07:41:23.577Z - server running on port 4000
+info 2021-06-03T07:41:24.572Z - starting server
+info 2021-06-03T07:41:24.974Z - server running on port 4000
+info 2021-06-03T07:42:00.773Z - stopping server
+info 2021-06-03T07:42:09.590Z - starting server
+info 2021-06-03T07:42:10.042Z - server running on port 4000
+error 2021-06-03T07:42:24.357Z - AuthError: No tienes permiso para ver este tema
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:19:74
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-03T07:42:43.804Z - starting server
+info 2021-06-03T07:42:44.838Z - server running on port 4000
+info 2021-06-03T08:06:39.371Z - stopping server
+info 2021-06-03T08:06:47.279Z - starting server
+info 2021-06-03T08:06:47.732Z - server running on port 4000
+error 2021-06-03T08:31:39.501Z - ConflictError: Ya añadiste un tema con el número 1
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-03T08:35:28.011Z - starting server
+info 2021-06-03T08:35:28.499Z - server running on port 4000
+info 2021-06-03T13:45:10.330Z - starting server
+info 2021-06-03T13:45:10.830Z - server running on port 4000
+info 2021-06-03T13:45:31.379Z - starting server
+info 2021-06-03T13:45:31.804Z - server running on port 4000
+info 2021-06-03T13:45:43.110Z - starting server
+info 2021-06-03T13:45:43.668Z - server running on port 4000
+info 2021-06-03T13:45:45.812Z - starting server
+info 2021-06-03T13:45:46.224Z - server running on port 4000
+info 2021-06-03T13:46:00.291Z - starting server
+info 2021-06-03T13:46:00.684Z - server running on port 4000
+info 2021-06-03T13:46:03.647Z - starting server
+info 2021-06-03T13:46:04.045Z - server running on port 4000
+info 2021-06-03T13:46:09.935Z - starting server
+info 2021-06-03T13:46:10.342Z - server running on port 4000
+info 2021-06-03T13:46:11.305Z - starting server
+info 2021-06-03T13:46:11.745Z - server running on port 4000
+info 2021-06-03T13:46:13.900Z - starting server
+info 2021-06-03T13:46:14.315Z - server running on port 4000
+info 2021-06-03T13:46:19.060Z - starting server
+info 2021-06-03T13:46:19.471Z - server running on port 4000
+info 2021-06-03T13:46:22.002Z - starting server
+info 2021-06-03T13:46:22.414Z - server running on port 4000
+info 2021-06-03T13:46:23.908Z - starting server
+info 2021-06-03T13:46:24.341Z - server running on port 4000
+info 2021-06-03T13:46:37.570Z - starting server
+info 2021-06-03T13:46:37.966Z - server running on port 4000
+info 2021-06-03T13:46:38.768Z - starting server
+info 2021-06-03T13:46:39.175Z - server running on port 4000
+info 2021-06-03T13:46:40.312Z - starting server
+info 2021-06-03T13:46:40.726Z - server running on port 4000
+info 2021-06-03T13:46:43.832Z - starting server
+info 2021-06-03T13:46:44.218Z - server running on port 4000
+info 2021-06-03T13:46:46.606Z - starting server
+info 2021-06-03T13:46:47.013Z - server running on port 4000
+info 2021-06-03T13:46:54.028Z - starting server
+info 2021-06-03T13:46:54.425Z - server running on port 4000
+info 2021-06-03T13:46:56.879Z - starting server
+info 2021-06-03T13:46:57.344Z - server running on port 4000
+info 2021-06-03T13:47:04.557Z - starting server
+info 2021-06-03T13:47:05.007Z - server running on port 4000
+info 2021-06-03T13:47:09.415Z - starting server
+info 2021-06-03T13:47:09.821Z - server running on port 4000
+info 2021-06-03T13:47:10.471Z - starting server
+info 2021-06-03T13:47:10.944Z - server running on port 4000
+info 2021-06-03T13:47:12.470Z - starting server
+info 2021-06-03T13:47:12.906Z - server running on port 4000
+info 2021-06-03T13:47:15.369Z - starting server
+info 2021-06-03T13:47:15.830Z - server running on port 4000
+info 2021-06-03T13:47:19.380Z - starting server
+info 2021-06-03T13:47:19.770Z - server running on port 4000
+info 2021-06-03T13:47:22.746Z - starting server
+info 2021-06-03T13:47:23.129Z - server running on port 4000
+info 2021-06-03T13:47:24.520Z - starting server
+info 2021-06-03T13:47:25.029Z - server running on port 4000
+info 2021-06-03T13:47:31.651Z - starting server
+info 2021-06-03T13:47:32.048Z - server running on port 4000
+info 2021-06-03T13:47:47.482Z - starting server
+info 2021-06-03T13:47:47.907Z - server running on port 4000
+info 2021-06-03T13:47:49.672Z - starting server
+info 2021-06-03T13:47:50.449Z - server running on port 4000
+info 2021-06-03T13:47:53.336Z - starting server
+info 2021-06-03T13:47:53.772Z - server running on port 4000
+info 2021-06-03T13:47:56.735Z - starting server
+info 2021-06-03T13:47:57.163Z - server running on port 4000
+info 2021-06-03T13:48:00.184Z - starting server
+info 2021-06-03T13:48:00.632Z - server running on port 4000
+info 2021-06-03T13:48:04.795Z - starting server
+info 2021-06-03T13:48:05.327Z - server running on port 4000
+info 2021-06-03T13:48:08.864Z - starting server
+info 2021-06-03T13:48:09.309Z - server running on port 4000
+info 2021-06-03T13:48:09.788Z - starting server
+info 2021-06-03T13:48:10.229Z - server running on port 4000
+info 2021-06-03T13:48:17.409Z - starting server
+info 2021-06-03T13:48:17.807Z - server running on port 4000
+info 2021-06-03T13:48:24.345Z - starting server
+info 2021-06-03T13:48:24.794Z - server running on port 4000
+info 2021-06-03T13:48:25.604Z - starting server
+info 2021-06-03T13:48:26.102Z - server running on port 4000
+info 2021-06-03T13:48:31.472Z - starting server
+info 2021-06-03T13:48:31.863Z - server running on port 4000
+info 2021-06-03T13:48:34.637Z - starting server
+info 2021-06-03T13:48:35.036Z - server running on port 4000
+info 2021-06-03T13:48:49.395Z - starting server
+info 2021-06-03T13:48:49.784Z - server running on port 4000
+info 2021-06-03T13:48:51.182Z - starting server
+info 2021-06-03T13:48:51.582Z - server running on port 4000
+info 2021-06-03T13:49:00.185Z - starting server
+info 2021-06-03T13:49:00.630Z - server running on port 4000
+info 2021-06-03T13:49:02.797Z - starting server
+info 2021-06-03T13:49:03.228Z - server running on port 4000
+info 2021-06-03T13:49:03.990Z - starting server
+info 2021-06-03T13:49:04.424Z - server running on port 4000
+info 2021-06-03T13:49:06.112Z - starting server
+info 2021-06-03T13:49:06.925Z - server running on port 4000
+info 2021-06-03T13:49:20.921Z - starting server
+info 2021-06-03T13:49:21.408Z - server running on port 4000
+info 2021-06-03T13:49:23.005Z - starting server
+info 2021-06-03T13:49:23.388Z - server running on port 4000
+info 2021-06-03T13:49:24.987Z - starting server
+info 2021-06-03T13:49:25.430Z - server running on port 4000
+info 2021-06-03T13:49:28.406Z - starting server
+info 2021-06-03T13:49:28.807Z - server running on port 4000
+info 2021-06-03T13:49:31.758Z - starting server
+info 2021-06-03T13:49:32.131Z - server running on port 4000
+info 2021-06-03T13:50:13.612Z - starting server
+info 2021-06-03T13:50:14.248Z - server running on port 4000
+info 2021-06-03T13:50:16.588Z - starting server
+info 2021-06-03T13:50:17.180Z - server running on port 4000
+info 2021-06-03T13:50:18.594Z - starting server
+info 2021-06-03T13:50:19.252Z - server running on port 4000
+info 2021-06-03T13:50:25.596Z - starting server
+info 2021-06-03T13:50:26.083Z - server running on port 4000
+info 2021-06-03T13:50:27.002Z - starting server
+info 2021-06-03T13:50:27.561Z - server running on port 4000
+info 2021-06-03T13:50:30.216Z - starting server
+info 2021-06-03T13:50:30.794Z - server running on port 4000
+info 2021-06-03T13:50:32.109Z - starting server
+info 2021-06-03T13:50:32.724Z - server running on port 4000
+info 2021-06-03T13:50:33.255Z - starting server
+info 2021-06-03T13:50:33.792Z - server running on port 4000
+info 2021-06-03T13:50:36.052Z - starting server
+info 2021-06-03T13:50:39.305Z - starting server
+info 2021-06-03T13:50:39.827Z - server running on port 4000
+info 2021-06-03T13:50:41.640Z - starting server
+info 2021-06-03T13:50:42.186Z - server running on port 4000
+info 2021-06-03T13:50:44.414Z - starting server
+info 2021-06-03T13:50:45.026Z - server running on port 4000
+info 2021-06-03T13:50:47.510Z - starting server
+info 2021-06-03T13:50:48.037Z - server running on port 4000
+info 2021-06-03T13:50:51.787Z - starting server
+info 2021-06-03T13:50:52.357Z - server running on port 4000
+info 2021-06-03T13:50:55.098Z - starting server
+info 2021-06-03T13:50:55.817Z - server running on port 4000
+info 2021-06-03T13:50:58.511Z - starting server
+info 2021-06-03T13:50:59.022Z - server running on port 4000
+info 2021-06-03T13:51:06.339Z - starting server
+info 2021-06-03T13:51:06.944Z - server running on port 4000
+info 2021-06-03T13:51:32.794Z - starting server
+info 2021-06-03T13:51:33.413Z - server running on port 4000
+info 2021-06-03T13:51:36.866Z - starting server
+info 2021-06-03T13:51:37.375Z - server running on port 4000
+info 2021-06-03T13:51:44.206Z - starting server
+info 2021-06-03T13:51:44.699Z - server running on port 4000
+info 2021-06-03T13:51:45.986Z - starting server
+info 2021-06-03T13:51:46.729Z - server running on port 4000
+info 2021-06-03T13:51:47.598Z - starting server
+info 2021-06-03T13:51:48.167Z - server running on port 4000
+info 2021-06-03T13:51:53.683Z - starting server
+info 2021-06-03T13:51:54.345Z - server running on port 4000
+info 2021-06-03T13:51:54.908Z - starting server
+info 2021-06-03T13:51:55.428Z - server running on port 4000
+info 2021-06-03T13:52:04.101Z - starting server
+info 2021-06-03T13:52:04.843Z - server running on port 4000
+info 2021-06-03T13:52:11.661Z - starting server
+info 2021-06-03T13:52:12.237Z - server running on port 4000
+info 2021-06-03T13:52:16.970Z - starting server
+info 2021-06-03T13:52:17.499Z - server running on port 4000
+info 2021-06-03T13:52:20.196Z - starting server
+info 2021-06-03T13:52:24.320Z - starting server
+info 2021-06-03T13:52:25.027Z - server running on port 4000
+info 2021-06-03T13:52:27.702Z - starting server
+info 2021-06-03T13:52:28.221Z - server running on port 4000
+info 2021-06-03T13:52:30.091Z - starting server
+info 2021-06-03T13:52:30.567Z - server running on port 4000
+info 2021-06-03T13:52:32.427Z - starting server
+info 2021-06-03T13:52:32.852Z - server running on port 4000
+info 2021-06-03T13:53:19.822Z - starting server
+info 2021-06-03T13:53:20.780Z - starting server
+info 2021-06-03T13:53:21.466Z - server running on port 4000
+info 2021-06-03T13:53:22.733Z - starting server
+info 2021-06-03T13:53:23.183Z - server running on port 4000
+info 2021-06-03T13:53:29.689Z - starting server
+info 2021-06-03T13:53:30.149Z - server running on port 4000
+info 2021-06-03T13:53:48.858Z - starting server
+info 2021-06-03T13:53:49.500Z - server running on port 4000
+info 2021-06-03T13:53:50.572Z - starting server
+info 2021-06-03T13:53:51.152Z - server running on port 4000
+info 2021-06-03T13:53:54.995Z - starting server
+info 2021-06-03T13:53:55.515Z - server running on port 4000
+info 2021-06-03T13:53:57.789Z - starting server
+info 2021-06-03T13:53:58.374Z - server running on port 4000
+info 2021-06-03T13:54:58.831Z - starting server
+info 2021-06-03T13:54:59.364Z - server running on port 4000
+info 2021-06-03T13:55:09.915Z - starting server
+info 2021-06-03T13:55:10.843Z - server running on port 4000
+info 2021-06-03T13:55:12.473Z - starting server
+info 2021-06-03T13:55:12.920Z - server running on port 4000
+info 2021-06-03T13:55:18.643Z - starting server
+info 2021-06-03T13:55:19.252Z - server running on port 4000
+info 2021-06-03T13:55:21.221Z - starting server
+info 2021-06-03T13:55:21.961Z - server running on port 4000
+info 2021-06-03T13:55:27.672Z - starting server
+info 2021-06-03T13:55:28.279Z - server running on port 4000
+info 2021-06-03T13:55:29.334Z - starting server
+info 2021-06-03T13:55:30.060Z - server running on port 4000
+info 2021-06-03T13:55:30.471Z - starting server
+info 2021-06-03T13:55:30.979Z - server running on port 4000
+info 2021-06-03T13:55:34.560Z - starting server
+info 2021-06-03T13:55:35.271Z - server running on port 4000
+info 2021-06-03T13:55:38.324Z - starting server
+info 2021-06-03T13:55:38.852Z - server running on port 4000
+info 2021-06-03T13:57:10.194Z - starting server
+info 2021-06-03T13:57:10.599Z - server running on port 4000
+info 2021-06-03T15:46:33.406Z - starting server
+info 2021-06-03T15:46:33.870Z - server running on port 4000
+info 2021-06-03T15:46:37.500Z - starting server
+info 2021-06-03T15:46:37.943Z - server running on port 4000
+info 2021-06-03T15:46:43.039Z - starting server
+info 2021-06-03T15:46:43.448Z - server running on port 4000
+info 2021-06-03T15:46:49.161Z - starting server
+info 2021-06-03T15:46:49.595Z - server running on port 4000
+info 2021-06-03T15:46:51.945Z - starting server
+info 2021-06-03T15:46:52.342Z - server running on port 4000
+info 2021-06-03T15:46:53.973Z - starting server
+info 2021-06-03T15:46:54.385Z - server running on port 4000
+info 2021-06-03T15:47:03.553Z - starting server
+info 2021-06-03T15:47:04.013Z - server running on port 4000
+info 2021-06-03T15:47:07.043Z - starting server
+info 2021-06-03T15:47:07.442Z - server running on port 4000
+info 2021-06-03T15:47:13.908Z - starting server
+info 2021-06-03T15:47:14.319Z - server running on port 4000
+info 2021-06-03T15:47:17.651Z - starting server
+info 2021-06-03T15:47:18.106Z - server running on port 4000
+info 2021-06-03T15:47:19.567Z - starting server
+info 2021-06-03T15:47:19.972Z - server running on port 4000
+info 2021-06-03T15:47:27.497Z - starting server
+info 2021-06-03T15:47:27.906Z - server running on port 4000
+info 2021-06-03T15:47:33.859Z - starting server
+info 2021-06-03T15:47:34.300Z - server running on port 4000
+info 2021-06-03T15:47:35.662Z - starting server
+info 2021-06-03T15:47:36.063Z - server running on port 4000
+info 2021-06-03T15:47:40.375Z - starting server
+info 2021-06-03T15:47:40.794Z - server running on port 4000
+info 2021-06-03T15:47:45.048Z - starting server
+info 2021-06-03T15:47:45.479Z - server running on port 4000
+info 2021-06-03T15:47:53.362Z - starting server
+info 2021-06-03T15:47:53.864Z - server running on port 4000
+info 2021-06-03T15:47:59.849Z - starting server
+info 2021-06-03T15:48:00.387Z - server running on port 4000
+info 2021-06-03T15:48:10.088Z - starting server
+info 2021-06-03T15:48:10.502Z - server running on port 4000
+info 2021-06-03T15:48:19.453Z - starting server
+info 2021-06-03T15:48:20.082Z - server running on port 4000
+info 2021-06-03T15:48:22.771Z - starting server
+info 2021-06-03T15:48:23.221Z - server running on port 4000
+info 2021-06-03T15:48:24.753Z - starting server
+info 2021-06-03T15:48:25.136Z - server running on port 4000
+info 2021-06-03T15:48:34.343Z - starting server
+info 2021-06-03T15:48:34.753Z - server running on port 4000
+info 2021-06-03T15:48:36.802Z - starting server
+info 2021-06-03T15:48:37.228Z - server running on port 4000
+info 2021-06-03T15:48:40.693Z - starting server
+info 2021-06-03T15:48:41.160Z - server running on port 4000
+info 2021-06-03T15:48:44.442Z - starting server
+info 2021-06-03T15:48:44.848Z - server running on port 4000
+info 2021-06-03T15:48:45.775Z - starting server
+info 2021-06-03T15:48:46.226Z - server running on port 4000
+info 2021-06-03T15:48:48.454Z - starting server
+info 2021-06-03T15:48:48.928Z - server running on port 4000
+info 2021-06-03T15:48:49.538Z - starting server
+info 2021-06-03T15:48:49.951Z - server running on port 4000
+info 2021-06-03T15:48:52.547Z - starting server
+info 2021-06-03T15:48:52.966Z - server running on port 4000
+info 2021-06-03T15:48:59.087Z - starting server
+info 2021-06-03T15:48:59.560Z - server running on port 4000
+info 2021-06-03T15:49:00.355Z - starting server
+info 2021-06-03T15:49:00.764Z - server running on port 4000
+info 2021-06-03T15:49:04.191Z - starting server
+info 2021-06-03T15:49:04.605Z - server running on port 4000
+info 2021-06-03T15:49:07.826Z - starting server
+info 2021-06-03T15:49:08.232Z - server running on port 4000
+info 2021-06-03T15:49:09.570Z - starting server
+info 2021-06-03T15:49:09.987Z - server running on port 4000
+info 2021-06-03T15:49:42.577Z - starting server
+info 2021-06-03T15:49:42.987Z - server running on port 4000
+info 2021-06-03T15:49:44.588Z - starting server
+info 2021-06-03T15:49:44.991Z - server running on port 4000
+info 2021-06-03T15:49:56.546Z - starting server
+info 2021-06-03T15:49:56.925Z - server running on port 4000
+info 2021-06-03T15:50:04.315Z - starting server
+info 2021-06-03T15:50:04.795Z - server running on port 4000
+info 2021-06-03T15:50:05.531Z - starting server
+info 2021-06-03T15:50:06.013Z - server running on port 4000
+info 2021-06-03T15:50:15.589Z - starting server
+info 2021-06-03T15:50:15.999Z - server running on port 4000
+info 2021-06-03T15:50:22.084Z - starting server
+info 2021-06-03T15:50:22.526Z - server running on port 4000
+info 2021-06-03T15:50:25.780Z - starting server
+info 2021-06-03T15:50:26.185Z - server running on port 4000
+info 2021-06-03T15:51:51.583Z - starting server
+info 2021-06-03T15:51:52.427Z - starting server
+info 2021-06-03T15:51:52.901Z - server running on port 4000
+info 2021-06-03T15:51:56.828Z - starting server
+info 2021-06-03T15:51:57.285Z - server running on port 4000
+info 2021-06-03T15:53:35.319Z - starting server
+info 2021-06-03T15:53:35.811Z - server running on port 4000
+info 2021-06-03T15:53:36.433Z - starting server
+info 2021-06-03T15:53:36.864Z - server running on port 4000
+info 2021-06-03T15:53:46.793Z - starting server
+info 2021-06-03T15:53:47.184Z - server running on port 4000
+info 2021-06-03T15:53:48.920Z - starting server
+info 2021-06-03T15:53:49.343Z - server running on port 4000
+info 2021-06-03T16:01:52.133Z - starting server
+info 2021-06-03T16:01:52.640Z - server running on port 4000
+info 2021-06-03T16:01:54.720Z - starting server
+info 2021-06-03T16:01:55.159Z - server running on port 4000
+info 2021-06-03T16:01:58.664Z - starting server
+info 2021-06-03T16:01:59.117Z - server running on port 4000
+info 2021-06-03T16:02:02.327Z - starting server
+info 2021-06-03T16:02:02.746Z - server running on port 4000
+info 2021-06-03T16:02:14.702Z - starting server
+info 2021-06-03T16:02:15.120Z - server running on port 4000
+info 2021-06-03T16:02:17.428Z - starting server
+info 2021-06-03T16:02:17.828Z - server running on port 4000
+info 2021-06-03T16:02:18.911Z - starting server
+info 2021-06-03T16:02:19.290Z - server running on port 4000
+info 2021-06-03T16:03:58.875Z - starting server
+info 2021-06-03T16:03:59.537Z - starting server
+info 2021-06-03T16:04:00.054Z - server running on port 4000
+info 2021-06-03T16:04:09.066Z - starting server
+info 2021-06-03T16:04:09.495Z - server running on port 4000
+info 2021-06-03T16:04:12.415Z - starting server
+info 2021-06-03T16:04:12.838Z - server running on port 4000
+info 2021-06-03T16:04:31.656Z - starting server
+info 2021-06-03T16:04:32.086Z - server running on port 4000
+info 2021-06-03T16:04:40.190Z - starting server
+info 2021-06-03T16:04:40.575Z - server running on port 4000
+info 2021-06-03T16:04:42.760Z - starting server
+info 2021-06-03T16:04:43.214Z - server running on port 4000
+info 2021-06-03T16:05:01.898Z - starting server
+info 2021-06-03T16:05:02.344Z - server running on port 4000
+info 2021-06-03T16:05:04.588Z - starting server
+info 2021-06-03T16:05:04.976Z - server running on port 4000
+info 2021-06-03T16:05:17.313Z - starting server
+info 2021-06-03T16:05:17.764Z - server running on port 4000
+info 2021-06-03T16:05:20.925Z - starting server
+info 2021-06-03T16:05:21.516Z - server running on port 4000
+info 2021-06-03T16:05:25.673Z - starting server
+info 2021-06-03T16:05:26.097Z - server running on port 4000
+info 2021-06-03T16:05:31.414Z - starting server
+info 2021-06-03T16:05:31.892Z - server running on port 4000
+info 2021-06-03T16:05:39.837Z - starting server
+info 2021-06-03T16:05:40.227Z - server running on port 4000
+info 2021-06-03T16:05:46.487Z - starting server
+info 2021-06-03T16:05:47.781Z - server running on port 4000
+info 2021-06-03T16:05:50.248Z - starting server
+info 2021-06-03T16:05:50.623Z - server running on port 4000
+info 2021-06-03T16:05:56.327Z - starting server
+info 2021-06-03T16:05:56.802Z - server running on port 4000
+info 2021-06-03T16:05:58.800Z - starting server
+info 2021-06-03T16:05:59.212Z - server running on port 4000
+info 2021-06-03T16:06:01.823Z - starting server
+info 2021-06-03T16:06:02.225Z - server running on port 4000
+info 2021-06-03T16:06:05.265Z - starting server
+info 2021-06-03T16:06:05.695Z - server running on port 4000
+info 2021-06-03T16:06:06.799Z - starting server
+info 2021-06-03T16:06:07.216Z - server running on port 4000
+info 2021-06-03T16:06:10.902Z - starting server
+info 2021-06-03T16:06:11.363Z - server running on port 4000
+info 2021-06-03T16:06:13.425Z - starting server
+info 2021-06-03T16:06:13.812Z - server running on port 4000
+info 2021-06-03T16:06:15.183Z - starting server
+info 2021-06-03T16:06:15.594Z - server running on port 4000
+info 2021-06-03T16:06:23.862Z - starting server
+info 2021-06-03T16:06:24.313Z - server running on port 4000
+info 2021-06-03T16:06:32.108Z - starting server
+info 2021-06-03T16:06:32.523Z - server running on port 4000
+info 2021-06-03T16:06:37.918Z - starting server
+info 2021-06-03T16:06:38.357Z - server running on port 4000
+info 2021-06-03T16:07:01.017Z - starting server
+info 2021-06-03T16:07:01.470Z - server running on port 4000
+info 2021-06-03T16:07:04.283Z - starting server
+info 2021-06-03T16:07:04.842Z - server running on port 4000
+info 2021-06-03T16:07:09.315Z - starting server
+info 2021-06-03T16:07:09.700Z - server running on port 4000
+info 2021-06-03T16:07:56.445Z - starting server
+info 2021-06-03T16:07:56.927Z - server running on port 4000
+info 2021-06-03T16:07:59.438Z - starting server
+info 2021-06-03T16:07:59.858Z - server running on port 4000
+info 2021-06-03T16:08:11.070Z - starting server
+info 2021-06-03T16:08:11.459Z - server running on port 4000
+info 2021-06-03T16:08:13.360Z - starting server
+info 2021-06-03T16:08:13.796Z - server running on port 4000
+info 2021-06-03T16:08:18.092Z - starting server
+info 2021-06-03T16:08:18.534Z - server running on port 4000
+info 2021-06-03T16:08:24.640Z - starting server
+info 2021-06-03T16:08:25.015Z - server running on port 4000
+info 2021-06-03T16:08:26.962Z - starting server
+info 2021-06-03T16:08:27.423Z - server running on port 4000
+info 2021-06-03T16:08:32.320Z - starting server
+info 2021-06-03T16:08:32.804Z - server running on port 4000
+info 2021-06-03T16:08:36.846Z - starting server
+info 2021-06-03T16:08:37.488Z - server running on port 4000
+info 2021-06-03T16:08:41.230Z - starting server
+info 2021-06-03T16:08:41.624Z - server running on port 4000
+info 2021-06-03T16:09:03.583Z - starting server
+info 2021-06-03T16:09:03.997Z - server running on port 4000
+info 2021-06-03T16:09:05.762Z - starting server
+info 2021-06-03T16:09:06.165Z - server running on port 4000
+info 2021-06-03T16:09:07.854Z - starting server
+info 2021-06-03T16:09:08.240Z - server running on port 4000
+info 2021-06-03T16:09:51.093Z - starting server
+info 2021-06-03T16:09:51.521Z - server running on port 4000
+info 2021-06-03T16:09:57.623Z - starting server
+info 2021-06-03T16:09:58.117Z - server running on port 4000
+info 2021-06-03T16:10:00.750Z - starting server
+info 2021-06-03T16:10:01.169Z - server running on port 4000
+info 2021-06-03T16:10:09.481Z - starting server
+info 2021-06-03T16:10:09.889Z - server running on port 4000
+info 2021-06-03T16:10:15.281Z - starting server
+info 2021-06-03T16:10:15.698Z - server running on port 4000
+info 2021-06-03T16:10:27.303Z - starting server
+error 2021-06-03T16:10:27.684Z - ReferenceError: handle is not defined
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:52:71)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/index.js:2:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /Users/betodav/Desktop/opo-reminder-app/server/index.js:20:25
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-03T16:10:27.689Z - stopping server
+info 2021-06-03T16:10:32.697Z - starting server
+error 2021-06-03T16:10:33.172Z - ReferenceError: handleModify is not defined
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:52:71)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/index.js:2:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /Users/betodav/Desktop/opo-reminder-app/server/index.js:20:25
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-03T16:10:33.176Z - stopping server
+info 2021-06-03T16:10:36.476Z - starting server
+error 2021-06-03T16:10:36.874Z - ReferenceError: handleModifySubject is not defined
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:52:71)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/index.js:2:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /Users/betodav/Desktop/opo-reminder-app/server/index.js:20:25
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-03T16:10:36.879Z - stopping server
+info 2021-06-03T16:10:54.544Z - starting server
+info 2021-06-03T16:10:54.951Z - server running on port 4000
+info 2021-06-03T16:11:10.899Z - starting server
+error 2021-06-03T16:11:11.421Z - ReferenceError: handleModify is not defined
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:16:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/index.js:2:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-03T16:11:11.428Z - stopping server
+info 2021-06-03T16:11:13.553Z - starting server
+error 2021-06-03T16:11:13.973Z - ReferenceError: handleModifySubject is not defined
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:16:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/index.js:2:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-03T16:11:13.977Z - stopping server
+info 2021-06-03T16:11:15.144Z - starting server
+error 2021-06-03T16:11:15.602Z - ReferenceError: handleModifySubject is not defined
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:16:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/index.js:2:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-03T16:11:15.608Z - stopping server
+info 2021-06-03T16:11:17.936Z - starting server
+info 2021-06-03T16:11:18.401Z - server running on port 4000
+info 2021-06-03T16:11:24.604Z - starting server
+error 2021-06-03T16:11:25.047Z - Error: Cannot find module './handle-modify'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:12:26)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:16:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-03T16:11:25.052Z - stopping server
+info 2021-06-03T16:11:27.072Z - starting server
+error 2021-06-03T16:11:27.481Z - Error: Cannot find module './handle-modify-subject'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:12:26)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:16:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-03T16:11:27.485Z - stopping server
+info 2021-06-03T16:11:31.856Z - starting server
+error 2021-06-03T16:11:32.252Z - Error: Cannot find module './handle-modify-subject'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:12:26)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:16:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-03T16:11:32.256Z - stopping server
+info 2021-06-03T16:12:00.898Z - starting server
+error 2021-06-03T16:12:01.304Z - Error: Cannot find module './handle-modify-subject'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:12:26)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:16:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-03T16:12:01.309Z - stopping server
+info 2021-06-03T16:12:13.505Z - starting server
+info 2021-06-03T16:12:13.956Z - server running on port 4000
+info 2021-06-03T16:12:20.611Z - starting server
+info 2021-06-03T16:12:21.025Z - server running on port 4000
+info 2021-06-03T16:12:22.097Z - starting server
+info 2021-06-03T16:12:22.533Z - server running on port 4000
+info 2021-06-03T16:12:30.003Z - starting server
+info 2021-06-03T16:12:30.435Z - server running on port 4000
+info 2021-06-03T16:12:35.038Z - starting server
+info 2021-06-03T16:12:35.447Z - server running on port 4000
+info 2021-06-03T16:12:38.658Z - starting server
+info 2021-06-03T16:12:39.062Z - server running on port 4000
+info 2021-06-03T16:12:44.011Z - starting server
+info 2021-06-03T16:12:44.437Z - server running on port 4000
+info 2021-06-03T16:12:46.617Z - starting server
+info 2021-06-03T16:12:47.130Z - server running on port 4000
+info 2021-06-03T16:12:49.072Z - starting server
+info 2021-06-03T16:12:49.591Z - server running on port 4000
+info 2021-06-03T16:13:06.224Z - starting server
+info 2021-06-03T16:13:06.604Z - server running on port 4000
+info 2021-06-03T16:13:50.414Z - starting server
+info 2021-06-03T16:13:50.846Z - server running on port 4000
+info 2021-06-03T16:13:52.320Z - starting server
+error 2021-06-03T16:13:52.749Z - /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-modify-subject.js:5
+        const { userId, params: { subjectId }, body:  } = req;
+                                                      ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:12:26)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:16:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-03T16:13:52.753Z - stopping server
+info 2021-06-03T16:13:55.301Z - starting server
+info 2021-06-03T16:13:55.707Z - server running on port 4000
+info 2021-06-03T16:13:56.412Z - starting server
+info 2021-06-03T16:13:56.818Z - server running on port 4000
+info 2021-06-03T16:14:48.988Z - starting server
+info 2021-06-03T16:14:49.580Z - server running on port 4000
+info 2021-06-03T16:14:51.790Z - starting server
+info 2021-06-03T16:14:52.196Z - server running on port 4000
+error 2021-06-03T16:22:37.921Z - TypeError: Cannot destructure property 'description' of 'update' as it is undefined.
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/modify-subject.js:6:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-modify-subject.js:6:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+error 2021-06-03T16:23:53.524Z - TypeError: Cannot destructure property 'description' of 'update' as it is undefined.
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/modify-subject.js:6:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-modify-subject.js:6:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+info 2021-06-03T16:24:48.771Z - stopping server
+info 2021-06-03T16:25:11.280Z - starting server
+info 2021-06-03T16:25:11.889Z - server running on port 4000
+error 2021-06-03T16:25:50.343Z - TypeError: Cannot destructure property 'description' of 'update' as it is undefined.
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/modify-subject.js:6:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-modify-subject.js:6:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+error 2021-06-03T16:28:02.501Z - TypeError: Cannot destructure property 'description' of 'update' as it is undefined.
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/modify-subject.js:6:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-modify-subject.js:6:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+error 2021-06-03T16:31:03.111Z - TypeError: Cannot destructure property 'description' of 'update' as it is undefined.
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/modify-subject.js:6:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-modify-subject.js:6:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+info 2021-06-03T16:31:19.444Z - starting server
+info 2021-06-03T16:31:20.011Z - server running on port 4000
+error 2021-06-03T16:31:56.614Z - TypeError: Cannot destructure property 'description' of 'update' as it is undefined.
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/modify-subject.js:6:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-modify-subject.js:6:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+error 2021-06-03T16:32:08.948Z - TypeError: Cannot destructure property 'description' of 'update' as it is undefined.
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/modify-subject.js:6:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-modify-subject.js:6:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+error 2021-06-03T16:32:31.202Z - TypeError: Cannot destructure property 'description' of 'update' as it is undefined.
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/modify-subject.js:6:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-modify-subject.js:6:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+error 2021-06-03T16:32:38.866Z - TypeError: Cannot destructure property 'description' of 'update' as it is undefined.
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/modify-subject.js:6:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-modify-subject.js:6:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+error 2021-06-03T16:35:12.664Z - TypeError: Cannot destructure property 'description' of 'update' as it is undefined.
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/modify-subject.js:6:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-modify-subject.js:6:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+error 2021-06-03T16:36:34.077Z - TypeError: Cannot destructure property 'description' of 'update' as it is undefined.
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/modify-subject.js:6:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-modify-subject.js:6:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+error 2021-06-03T16:36:56.513Z - TypeError: Cannot destructure property 'description' of 'update' as it is undefined.
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/modify-subject.js:6:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-modify-subject.js:6:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+error 2021-06-03T16:38:28.127Z - TypeError: Cannot destructure property 'description' of 'update' as it is undefined.
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/modify-subject.js:6:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-modify-subject.js:6:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+info 2021-06-03T16:38:41.650Z - stopping server
+info 2021-06-03T16:38:55.600Z - starting server
+info 2021-06-03T16:38:56.101Z - server running on port 4000
+error 2021-06-03T16:41:14.586Z - TypeError: Cannot destructure property 'description' of 'update' as it is undefined.
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/modify-subject.js:6:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-modify-subject.js:6:9)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+error 2021-06-03T16:42:14.548Z - TypeError: Promise.all is not a constructor
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/logic/modify-subject.js:16:12)
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-modify-subject.js:6:9
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at module.exports (/Users/betodav/Desktop/opo-reminder-app/server/middlewares/jwt-parser.js:14:9)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
