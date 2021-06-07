@@ -14,6 +14,8 @@ import Spinner from './components/commons/Spinner';
 import Card from './components/commons/Card';
 import EditSubjectForm from './components/EditSubjectForm';
 import Feedback from './components/commons/Feedback';
+import PrioritySubjectsLinks from './components/PrioritySubjects/PrioritySubjectsLinks'
+import Footer from './components/Footer';
 import { Route, withRouter, Redirect, Switch } from 'react-router-dom';
 
 import {
@@ -27,6 +29,8 @@ import {
   retrieveMySubjects,
   retrieveSubjectDetail,
   modifySubject,
+  removeSubject,
+  sortSubjects,
 } from './logic'
 
 function App({ history }) {
@@ -38,6 +42,8 @@ function App({ history }) {
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [foundSubject, setFoundSubject] = useState();
+  const [filteredSubjects, setFilteredSubjects] = useState();
 
   useEffect(() => {
     return (async () => {
@@ -52,14 +58,6 @@ function App({ history }) {
       }
     })();
   }, []);
-
-  // const __handleFeedback__ = (message, level) => {
-  //   setFeedback({ message, level });
-
-  //   setTimeout(() => {
-  //     setFeedback(null);
-  //   }, 5000);
-  // }
 
   const pageHandler = page => {
     history.push(page);
@@ -125,8 +123,8 @@ function App({ history }) {
 
   const searchSubjectsHandler = async (query) => {
     try {
-      const { result } = await searchSubjects(query)
-      console.log(result)
+      const { subjects } = await searchSubjects(query);
+      setFoundSubject(subjects);
     } catch ({ message }) {
       setFeedback(message);
       setError(true)
@@ -148,6 +146,36 @@ function App({ history }) {
       const { msg } = await modifySubject(subjectId, update)
       setSuccess(true);
       setFeedback(msg);
+      history.replace(`/my-subjects/${subjectId}`);
+      const { subject } = await retrieveSubjectDetail(subjectId);
+      setSubject(subject);
+    } catch ({ message }) {
+      setError(true);
+      setFeedback(message);
+    }
+  }
+
+  const filterSubjectsHandler = async (typeFilter) => {
+    try {
+      const { subjects } = await retrieveMySubjects();
+      if (subjects) {
+        const filtered = sortSubjects(subjects, typeFilter);
+        setFilteredSubjects(filtered);
+      }
+    } catch ({ message }) {
+      setError(true);
+      setFeedback(message);
+    }
+  }
+
+  const removeSubjectHandler = async (subjectId) => {
+    try {
+      const { msg } = await removeSubject(subjectId)
+      setSuccess(true);
+      setFeedback(msg);
+      history.replace('/my-subjects');
+      const { subjects } = await retrieveMySubjects();
+      setSubjects(subjects);
     } catch ({ message }) {
       setError(true);
       setFeedback(message);
@@ -156,44 +184,53 @@ function App({ history }) {
 
   const modalHandler = () => {
     if (error) setError(false);
+    if (feedback) setFeedback(null);
   }
 
   const feedbackHandler = () => {
     if (success) setSuccess(false);
+    if (feedback) setFeedback(null);
   }
 
 
   return (
     <div className="App">
-      <Header user={user} onSearch={searchSubjectsHandler} navigation={pageHandler} onLogout={logoutHandler} onGoToHome={onGoHomeHandler} />
       <Wrapper>
+        <Header user={user} onSearch={searchSubjectsHandler} navigation={pageHandler} onLogout={logoutHandler} onGoToHome={onGoHomeHandler} />
         {error && <ErrorModal title="Error" message={feedback} onHideModal={modalHandler} />}
         <Route exact path="/" render={() => isAuth() ? <Redirect to="/home" /> : <Redirect to="/sign-in" />} />
         <Route path="/sign-in" render={() => isAuth() ? <Redirect to="/home" /> : <AuthenticationComponent title="Acceso" navigation={pageHandler} onLogin={loginHandler} error={feedback} />} />
         <Route path="/sign-up" render={() => isAuth() ? <Redirect to="/home" /> : <AuthenticationComponent title="Registro" navigation={pageHandler} onRegister={registerHandler} error={feedback} />} />
-        {user ? <Controls user={user} onRetrieveMySubjects={retrieveMySubjectsHandler} /> : null}
+        {user ? <Controls user={user} onRetrieveMySubjects={retrieveMySubjectsHandler} onFilterSubjects={filterSubjectsHandler}/> : null}
         <Switch>
           {loading && <Spinner />}
-          {success && <Feedback message={feedback} onHideModal={feedbackHandler}/>}
+          {success && <Feedback message={feedback} onHideModal={feedbackHandler} />}
           <Route path="/home" render={() => <Quote />} />
           <Route path="/my-subjects/:subjectId">
-            {subject && <SubjectDetail subject={subject} />}
+            {subject && <SubjectDetail subject={subject} onRemoveSubject={removeSubjectHandler} />}
+          </Route>
+          <Route path="/search">
+            {foundSubject && foundSubject.length ? <SubjectList subjects={foundSubject} onDetail={subjectDetailHandler} /> : <Card className="secondary"><NotFound type="empty" /></Card>}
           </Route>
           <Route path="/my-subjects">
             {subjects && subjects.length ? <SubjectList subjects={subjects} onDetail={subjectDetailHandler} /> : <Card className="secondary"><NotFound type="empty" /></Card>}
           </Route>
           <Route path="/new-subject" render={() => <NewSubjectForm error={feedback} onAddSubject={addNewSubjectHandler} />} />
           <Route path="/subject-modify/:subjectId">
-            <EditSubjectForm subject={subject} onConfirmEdit={confirmEditHandler}/>
+            <EditSubjectForm subject={subject} onConfirmEdit={confirmEditHandler} />
+          </Route>
+          <Route path="/priority">
+            <PrioritySubjectsLinks onFilterSubjects={filterSubjectsHandler} />
+            {filteredSubjects && filteredSubjects.length ? <SubjectList subjects={filteredSubjects} onDetail={subjectDetailHandler} /> : <Card className="secondary"><NotFound type="empty" /></Card>}
           </Route>
           <Route path="*">
             {user && <Card className='secondary'>
-              <NotFound type='not-found'/>
+              <NotFound type='not-found' />
             </Card>}
           </Route>
         </Switch>
+        <Footer />
       </Wrapper>
-      {/* <Footer /> */}
     </div >
   );
 }

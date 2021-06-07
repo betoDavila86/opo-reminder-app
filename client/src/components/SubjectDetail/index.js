@@ -8,13 +8,12 @@ const SubjectDetail = ({ subject, onRemoveSubject }) => {
     const params = useParams();
     const history = useHistory();
     const id = params.subjectId;
-    console.log(id)
 
     const { number, title, creator, description, knowledge, studyFrequency, setGoalDate } = subject
 
     return (
         <div className="subject__container">
-            <span onClick={() => history.replace('/my-subjects')}>Atrás</span>
+            <span onClick={() => history.goBack()}>Atrás</span>
             <Card className="detail">
                 <div className="subject__header">
                     <h1>{number}. {title}</h1>
@@ -29,7 +28,7 @@ const SubjectDetail = ({ subject, onRemoveSubject }) => {
                 </div>
                 <div className="subject__modify">
                     <NavLink to={`/subject-modify/${id}`} className="btn">Editar</NavLink>
-                    <Button clicked={onRemoveSubject}>Eliminar</Button>
+                    <Button clicked={() => onRemoveSubject(id)}>Eliminar</Button>
                 </div>
             </Card>
         </div>

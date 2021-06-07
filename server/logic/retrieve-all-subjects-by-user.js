@@ -1,8 +1,9 @@
 const { User, Subject } = require('../models');
 const { NotFoundError } = require('../utils/custom-errors');
 const validations = require('../routes/api/helpers/validations');
+const subject = require('../models/schemas/subject');
 
-module.exports = userId => {
+module.exports = (userId) => {
     validations.string(userId, 'Id de usuario');
 
     return User.findById(userId)
@@ -20,9 +21,9 @@ module.exports = userId => {
                         delete subject.creator._id;
                         delete subject._id
                         delete subject.__v
+                        subject.number = +subject.number;
                     })
-
-                    return subjects
+                    return subjects.sort((a, b) => a.number - b.number);
                 })
         })
 }

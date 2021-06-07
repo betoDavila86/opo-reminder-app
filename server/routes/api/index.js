@@ -41,7 +41,7 @@ router.get('/api/subjects/:subjectId', jwtParser, withErrorHandling(handleRetrie
 router.get('/api/subjects', jwtParser, withErrorHandling(handleRetrieveAllSubjectsByUser));
 
 // search subjects
-router.get('/api/search/subjects', withErrorHandling(handleSearchSubjects))
+router.get('/api/search/subjects', jwtParser, withErrorHandling(handleSearchSubjects))
 
 // delete subject
 router.delete('/api/subjects/delete/:subjectId', jwtParser, withErrorHandling(handleDeleteSubject));

@@ -3223,3 +3223,1541 @@ error 2021-06-03T16:42:14.548Z - TypeError: Promise.all is not a constructor
     at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:410:3)
     at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
     at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+info 2021-06-06T14:32:48.539Z - starting server
+info 2021-06-06T14:32:49.160Z - server running on port 4000
+error 2021-06-06T15:19:33.594Z - TypeError: Cannot read property 'toString' of undefined
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:15:62
+    at Array.forEach (<anonymous>)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:10:26
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-06T15:46:48.111Z - stopping server
+info 2021-06-06T15:47:28.438Z - starting server
+info 2021-06-06T15:47:28.953Z - server running on port 4000
+error 2021-06-06T16:08:10.554Z - TypeError: ID del usuario undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:6:17
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:7:9
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:317:13)
+error 2021-06-06T16:12:46.620Z - TypeError: ID del usuario undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:6:17
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:7:9
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:317:13)
+error 2021-06-06T16:14:35.675Z - TypeError: ID del usuario undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:6:17
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:7:9
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:317:13)
+error 2021-06-06T16:15:05.920Z - TypeError: ID del usuario undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:6:17
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:7:9
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:317:13)
+error 2021-06-06T16:15:19.836Z - TypeError: ID del usuario undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:6:17
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:7:9
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:317:13)
+error 2021-06-06T16:15:51.732Z - TypeError: ID del usuario undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:6:17
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:7:9
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:317:13)
+error 2021-06-06T16:25:16.868Z - TypeError: ID del usuario undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:6:17
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:7:9
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:317:13)
+error 2021-06-06T16:25:46.548Z - TypeError: ID del usuario undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:6:17
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:7:9
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:317:13)
+error 2021-06-06T16:26:02.119Z - TypeError: ID del usuario undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:6:17
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:7:9
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:317:13)
+error 2021-06-06T16:30:14.105Z - TypeError: ID del usuario undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:6:17
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:7:9
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:317:13)
+error 2021-06-06T16:30:43.736Z - TypeError: ID del usuario undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:6:17
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:7:9
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:317:13)
+error 2021-06-06T16:31:27.740Z - TypeError: ID del usuario undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:6:17
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:7:9
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:317:13)
+error 2021-06-06T16:55:45.799Z - TypeError: ID del usuario undefined no es un string
+    at Object.type (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:28:47)
+    at Object.string (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/validations.js:7:14)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:6:17
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:7:9
+    at /Users/betodav/Desktop/opo-reminder-app/server/routes/api/helpers/handle-error.js:6:9
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/express/lib/router/index.js:317:13)
+info 2021-06-06T16:56:37.395Z - starting server
+info 2021-06-06T16:56:38.162Z - server running on port 4000
+info 2021-06-06T17:04:07.871Z - starting server
+info 2021-06-06T17:04:08.341Z - server running on port 4000
+info 2021-06-07T09:41:43.852Z - starting server
+info 2021-06-07T09:41:45.068Z - server running on port 4000
+info 2021-06-07T09:45:49.106Z - starting server
+error 2021-06-07T09:45:49.622Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:8
+    return Subject.find({ title: { $regex: `.*${query}.*`, , $options: 'i' } }).populate('creator', 'fullname').lean()
+                                                           ^
+
+SyntaxError: Unexpected token ','
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:1:24)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:11:27)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T09:45:49.625Z - stopping server
+info 2021-06-07T09:45:52.632Z - starting server
+info 2021-06-07T09:45:53.019Z - server running on port 4000
+info 2021-06-07T09:46:37.960Z - starting server
+info 2021-06-07T09:46:38.391Z - server running on port 4000
+info 2021-06-07T09:46:40.980Z - starting server
+info 2021-06-07T09:46:41.376Z - server running on port 4000
+info 2021-06-07T09:48:13.526Z - starting server
+info 2021-06-07T09:48:13.999Z - server running on port 4000
+info 2021-06-07T10:16:11.954Z - starting server
+info 2021-06-07T10:16:12.419Z - server running on port 4000
+error 2021-06-07T10:23:08.850Z - NotFoundError: Tema con id 60b515013f5e631f345c6b7d no encontrado
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:18:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-07T10:23:33.563Z - NotFoundError: Tema con id 60b797f00b72394b53e190b3 no encontrado
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:18:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-07T10:29:08.637Z - starting server
+error 2021-06-07T10:29:09.170Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:25
+                    return return subjects.sort((a, b) => b.number - a.number);
+                           ^^^^^^
+
+SyntaxError: Unexpected token 'return'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T10:29:09.174Z - stopping server
+info 2021-06-07T10:29:10.350Z - starting server
+info 2021-06-07T10:29:10.742Z - server running on port 4000
+info 2021-06-07T10:29:16.003Z - starting server
+info 2021-06-07T10:29:16.415Z - server running on port 4000
+info 2021-06-07T10:29:28.079Z - starting server
+info 2021-06-07T10:29:28.483Z - server running on port 4000
+info 2021-06-07T10:32:59.700Z - starting server
+info 2021-06-07T10:33:00.238Z - server running on port 4000
+info 2021-06-07T10:33:01.840Z - starting server
+info 2021-06-07T10:33:02.289Z - server running on port 4000
+info 2021-06-07T10:56:35.679Z - starting server
+info 2021-06-07T10:56:36.514Z - starting server
+info 2021-06-07T10:56:36.894Z - server running on port 4000
+info 2021-06-07T10:58:10.138Z - starting server
+error 2021-06-07T10:58:10.613Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:24
+                    return .sort((a, b) => b.number - a.number);
+                           ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:1:24)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:11:27)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T10:58:10.634Z - stopping server
+info 2021-06-07T10:58:13.150Z - starting server
+info 2021-06-07T10:58:13.601Z - server running on port 4000
+info 2021-06-07T10:58:14.876Z - starting server
+info 2021-06-07T10:58:15.292Z - server running on port 4000
+info 2021-06-07T10:58:32.603Z - starting server
+info 2021-06-07T10:58:32.990Z - server running on port 4000
+info 2021-06-07T10:58:35.332Z - starting server
+info 2021-06-07T10:58:35.809Z - server running on port 4000
+error 2021-06-07T13:20:02.427Z - TypeError: Cannot read property 'toString' of undefined
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:18:66
+    at Array.forEach (<anonymous>)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:13:38
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-07T13:20:21.132Z - TypeError: Cannot read property 'toString' of undefined
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:18:66
+    at Array.forEach (<anonymous>)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:13:38
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-07T13:21:51.640Z - TypeError: Cannot read property 'toString' of undefined
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:18:66
+    at Array.forEach (<anonymous>)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:13:38
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-07T13:25:26.500Z - ConflictError: Ya añadiste un tema con el número 4
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/create-subject.js:25:40
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-07T13:46:04.345Z - starting server
+info 2021-06-07T13:46:04.885Z - server running on port 4000
+info 2021-06-07T13:46:08.145Z - starting server
+info 2021-06-07T13:46:08.556Z - server running on port 4000
+info 2021-06-07T13:46:10.536Z - starting server
+info 2021-06-07T13:46:10.945Z - server running on port 4000
+info 2021-06-07T13:46:30.236Z - starting server
+info 2021-06-07T13:46:30.666Z - server running on port 4000
+info 2021-06-07T13:46:32.439Z - starting server
+error 2021-06-07T13:46:32.847Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    return subjects.sort((a, b) => a.number - b.number);
+                    ^^^^^^
+
+SyntaxError: Unexpected token 'return'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:46:32.853Z - stopping server
+info 2021-06-07T13:46:42.843Z - starting server
+info 2021-06-07T13:46:43.283Z - server running on port 4000
+info 2021-06-07T13:46:52.413Z - starting server
+info 2021-06-07T13:46:52.823Z - server running on port 4000
+info 2021-06-07T13:46:57.165Z - starting server
+info 2021-06-07T13:46:57.582Z - server running on port 4000
+info 2021-06-07T13:47:02.831Z - starting server
+error 2021-06-07T13:47:03.327Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:27
+                })
+                ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:47:03.335Z - stopping server
+info 2021-06-07T13:47:10.396Z - starting server
+error 2021-06-07T13:47:10.785Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    if (typeSorting === )
+                                        ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:47:10.789Z - stopping server
+info 2021-06-07T13:47:12.626Z - starting server
+error 2021-06-07T13:47:13.048Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:27
+                })
+                ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:47:13.055Z - stopping server
+info 2021-06-07T13:47:14.669Z - starting server
+error 2021-06-07T13:47:15.079Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:27
+                })
+                ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:47:15.083Z - stopping server
+info 2021-06-07T13:47:16.917Z - starting server
+info 2021-06-07T13:47:17.288Z - server running on port 4000
+info 2021-06-07T13:47:18.516Z - starting server
+info 2021-06-07T13:47:18.896Z - server running on port 4000
+info 2021-06-07T13:47:26.215Z - starting server
+info 2021-06-07T13:47:26.668Z - server running on port 4000
+info 2021-06-07T13:47:28.531Z - starting server
+info 2021-06-07T13:47:28.954Z - server running on port 4000
+info 2021-06-07T13:47:32.011Z - starting server
+error 2021-06-07T13:47:32.421Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    if (typeSorting === 'by-date') return subjects.sort(())
+                                                                         ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:47:32.424Z - stopping server
+info 2021-06-07T13:47:35.602Z - starting server
+info 2021-06-07T13:47:35.996Z - server running on port 4000
+info 2021-06-07T13:47:40.295Z - starting server
+info 2021-06-07T13:47:40.676Z - server running on port 4000
+info 2021-06-07T13:47:46.189Z - starting server
+info 2021-06-07T13:47:46.616Z - server running on port 4000
+info 2021-06-07T13:47:50.626Z - starting server
+info 2021-06-07T13:47:51.155Z - server running on port 4000
+info 2021-06-07T13:47:52.588Z - starting server
+info 2021-06-07T13:47:53.001Z - server running on port 4000
+info 2021-06-07T13:51:24.825Z - starting server
+info 2021-06-07T13:51:25.312Z - server running on port 4000
+info 2021-06-07T13:51:28.439Z - starting server
+error 2021-06-07T13:51:28.804Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    if (typeSorting === 'by-date') return subjects.sort((a ,b) => return new Date(b.date) - new Date(a.date););
+                                                                                  ^^^^^^
+
+SyntaxError: Unexpected token 'return'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:51:28.808Z - stopping server
+info 2021-06-07T13:51:30.735Z - starting server
+error 2021-06-07T13:51:31.125Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    if (typeSorting === 'by-date') return subjects.sort((a ,b) =>  new Date(b.date) - new Date(a.date););
+                                                                                                                     ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:51:31.128Z - stopping server
+info 2021-06-07T13:51:31.781Z - starting server
+error 2021-06-07T13:51:32.171Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    if (typeSorting === 'by-date') return subjects.sort((a ,b) => new Date(b.date) - new Date(a.date););
+                                                                                                                    ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:51:32.179Z - stopping server
+info 2021-06-07T13:51:40.358Z - starting server
+error 2021-06-07T13:51:40.814Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    if (typeSorting === 'by-date') return subjects.sort((a ,b) => new Date(b.setGoalDate) - new Date(a.date););
+                                                                                                                           ^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:51:40.818Z - stopping server
+info 2021-06-07T13:51:45.687Z - starting server
+info 2021-06-07T13:51:46.115Z - server running on port 4000
+info 2021-06-07T13:53:42.480Z - starting server
+info 2021-06-07T13:53:42.922Z - server running on port 4000
+info 2021-06-07T13:54:06.634Z - starting server
+info 2021-06-07T13:54:07.058Z - server running on port 4000
+info 2021-06-07T13:54:08.139Z - starting server
+error 2021-06-07T13:54:08.559Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:30
+                    });
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:54:08.564Z - stopping server
+info 2021-06-07T13:54:35.378Z - starting server
+info 2021-06-07T13:54:35.811Z - server running on port 4000
+info 2021-06-07T13:54:37.217Z - starting server
+info 2021-06-07T13:54:37.675Z - server running on port 4000
+info 2021-06-07T13:54:49.821Z - starting server
+info 2021-06-07T13:54:50.267Z - server running on port 4000
+info 2021-06-07T13:54:56.588Z - starting server
+info 2021-06-07T13:54:56.983Z - server running on port 4000
+info 2021-06-07T13:55:06.576Z - starting server
+error 2021-06-07T13:55:07.046Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:55:07.050Z - stopping server
+info 2021-06-07T13:55:10.192Z - starting server
+error 2021-06-07T13:55:10.569Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:55:10.572Z - stopping server
+info 2021-06-07T13:55:18.232Z - starting server
+info 2021-06-07T13:55:18.628Z - server running on port 4000
+info 2021-06-07T13:55:19.398Z - starting server
+info 2021-06-07T13:55:19.827Z - server running on port 4000
+info 2021-06-07T13:55:20.705Z - starting server
+error 2021-06-07T13:55:21.078Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:55:21.082Z - stopping server
+info 2021-06-07T13:55:33.233Z - starting server
+error 2021-06-07T13:55:33.697Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:55:33.705Z - stopping server
+info 2021-06-07T13:55:35.766Z - starting server
+error 2021-06-07T13:55:36.173Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:55:36.176Z - stopping server
+info 2021-06-07T13:59:34.419Z - starting server
+error 2021-06-07T13:59:34.881Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:59:34.884Z - stopping server
+info 2021-06-07T13:59:35.662Z - starting server
+error 2021-06-07T13:59:36.077Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T13:59:36.085Z - stopping server
+info 2021-06-07T14:00:00.666Z - starting server
+error 2021-06-07T14:00:01.039Z - ReferenceError: ty is not defined
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/models/schemas/subject.js:21:13)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/models/index.js:2:17)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/logic/register-user.js:3:18)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:00:01.041Z - stopping server
+info 2021-06-07T14:00:02.472Z - starting server
+error 2021-06-07T14:00:02.895Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:00:02.900Z - stopping server
+info 2021-06-07T14:00:26.404Z - starting server
+error 2021-06-07T14:00:26.828Z - ReferenceError: type is not defined
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/models/schemas/subject.js:21:13)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/models/index.js:2:17)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/logic/register-user.js:3:18)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:00:26.829Z - stopping server
+info 2021-06-07T14:00:31.110Z - starting server
+error 2021-06-07T14:00:31.503Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:00:31.508Z - stopping server
+info 2021-06-07T14:00:40.735Z - starting server
+error 2021-06-07T14:00:41.128Z - /Users/betodav/Desktop/opo-reminder-app/server/models/schemas/subject.js:22
+        }],
+        ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/models/index.js:2:17)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/logic/register-user.js:3:18)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:00:41.133Z - stopping server
+info 2021-06-07T14:00:43.171Z - starting server
+error 2021-06-07T14:00:43.551Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:00:43.558Z - stopping server
+info 2021-06-07T14:00:46.361Z - starting server
+error 2021-06-07T14:00:46.727Z - ReferenceError: value is not defined
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/models/schemas/subject.js:22:13)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/models/index.js:2:17)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/logic/register-user.js:3:18)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:00:46.734Z - stopping server
+info 2021-06-07T14:00:49.798Z - starting server
+error 2021-06-07T14:00:50.320Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:00:50.330Z - stopping server
+info 2021-06-07T14:01:00.968Z - starting server
+error 2021-06-07T14:01:01.354Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:01:01.358Z - stopping server
+info 2021-06-07T14:01:03.009Z - starting server
+error 2021-06-07T14:01:03.457Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:01:03.463Z - stopping server
+info 2021-06-07T14:01:06.508Z - starting server
+error 2021-06-07T14:01:06.941Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:01:06.945Z - stopping server
+info 2021-06-07T14:01:14.038Z - starting server
+error 2021-06-07T14:01:14.461Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:01:14.465Z - stopping server
+info 2021-06-07T14:01:17.242Z - starting server
+error 2021-06-07T14:01:17.639Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:01:17.643Z - stopping server
+info 2021-06-07T14:01:23.964Z - starting server
+error 2021-06-07T14:01:24.395Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:01:24.398Z - stopping server
+info 2021-06-07T14:01:26.055Z - starting server
+error 2021-06-07T14:01:26.435Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:01:26.438Z - stopping server
+info 2021-06-07T14:01:29.030Z - starting server
+error 2021-06-07T14:01:29.422Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:01:29.426Z - stopping server
+info 2021-06-07T14:01:31.614Z - starting server
+error 2021-06-07T14:01:32.042Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:01:32.046Z - stopping server
+info 2021-06-07T14:01:33.662Z - starting server
+error 2021-06-07T14:01:34.056Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:01:34.060Z - stopping server
+info 2021-06-07T14:01:36.206Z - starting server
+error 2021-06-07T14:01:36.606Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:01:36.611Z - stopping server
+info 2021-06-07T14:01:38.214Z - starting server
+error 2021-06-07T14:01:38.660Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:01:38.666Z - stopping server
+info 2021-06-07T14:01:41.711Z - starting server
+error 2021-06-07T14:01:42.155Z - /Users/betodav/Desktop/opo-reminder-app/server/models/schemas/subject.js:19
+        type: String,{
+                     ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/models/index.js:2:17)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/logic/register-user.js:3:18)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:01:42.158Z - stopping server
+info 2021-06-07T14:01:44.057Z - starting server
+error 2021-06-07T14:01:44.507Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:26
+                    })
+                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:01:44.510Z - stopping server
+info 2021-06-07T14:02:48.838Z - starting server
+info 2021-06-07T14:02:49.350Z - server running on port 4000
+info 2021-06-07T14:02:54.182Z - starting server
+info 2021-06-07T14:02:54.623Z - server running on port 4000
+info 2021-06-07T14:03:00.834Z - starting server
+info 2021-06-07T14:03:01.254Z - server running on port 4000
+info 2021-06-07T14:03:04.917Z - starting server
+info 2021-06-07T14:03:05.341Z - server running on port 4000
+info 2021-06-07T14:03:07.511Z - starting server
+error 2021-06-07T14:03:07.948Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:28
+                    if (typeSorting === 'by-knowledge') return subjects.sort((a, b) => );
+                                                                                       ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:03:07.952Z - stopping server
+info 2021-06-07T14:03:11.917Z - starting server
+error 2021-06-07T14:03:12.392Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:28
+                    if (typeSorting === 'by-knowledge') return subjects.sort((a, b) => a.);
+                                                                                         ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:03:12.399Z - stopping server
+info 2021-06-07T14:03:15.293Z - starting server
+info 2021-06-07T14:03:15.740Z - server running on port 4000
+info 2021-06-07T14:03:17.070Z - starting server
+error 2021-06-07T14:03:17.528Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:28
+                    if (typeSorting === 'by-knowledge') return subjects.sort((a, b) => a.knowledge.);
+                                                                                                   ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:03:17.537Z - stopping server
+info 2021-06-07T14:03:21.605Z - starting server
+info 2021-06-07T14:03:22.042Z - server running on port 4000
+info 2021-06-07T14:03:23.502Z - starting server
+info 2021-06-07T14:03:24.051Z - server running on port 4000
+info 2021-06-07T14:03:25.815Z - starting server
+error 2021-06-07T14:03:26.221Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:28
+                    if (typeSorting === 'by-knowledge') return subjects.sort((a, b) => a.knowledge.valueNumber - );
+                                                                                                                 ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:03:26.228Z - stopping server
+info 2021-06-07T14:03:33.199Z - starting server
+info 2021-06-07T14:03:33.667Z - server running on port 4000
+info 2021-06-07T14:04:02.313Z - starting server
+info 2021-06-07T14:04:02.755Z - server running on port 4000
+info 2021-06-07T14:04:10.845Z - starting server
+error 2021-06-07T14:04:11.243Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-all-subjects-by-user.js:6
+module.exports = (userId, typeSorting = ) => {
+                                        ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-retrieve-all-subjects-by-user.js:1:35)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:9:38)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-07T14:04:11.247Z - stopping server
+info 2021-06-07T14:04:16.753Z - starting server
+info 2021-06-07T14:04:17.177Z - server running on port 4000
+info 2021-06-07T14:04:29.309Z - starting server
+info 2021-06-07T14:04:29.822Z - server running on port 4000
+info 2021-06-07T14:15:21.522Z - starting server
+info 2021-06-07T14:15:22.072Z - server running on port 4000
+info 2021-06-07T14:15:27.619Z - starting server
+info 2021-06-07T14:15:28.026Z - server running on port 4000
+info 2021-06-07T14:15:29.475Z - starting server
+info 2021-06-07T14:15:29.915Z - server running on port 4000
+info 2021-06-07T14:15:40.911Z - starting server
+info 2021-06-07T14:15:41.393Z - server running on port 4000
+info 2021-06-07T14:15:45.169Z - starting server
+info 2021-06-07T14:15:45.656Z - server running on port 4000
+error 2021-06-07T14:16:30.210Z - CastError: Cast to ObjectId failed for value "undefined" at path "_id" for model "Subject"
+    at model.Query.exec (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4437:21)
+    at model.Query.Query.then (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4531:15)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:17:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-07T14:16:33.588Z - CastError: Cast to ObjectId failed for value "undefined" at path "_id" for model "Subject"
+    at model.Query.exec (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4437:21)
+    at model.Query.Query.then (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4531:15)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:17:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-07T14:17:25.326Z - CastError: Cast to ObjectId failed for value "undefined" at path "_id" for model "Subject"
+    at model.Query.exec (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4437:21)
+    at model.Query.Query.then (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4531:15)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:17:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-07T14:20:06.604Z - starting server
+info 2021-06-07T14:20:07.067Z - server running on port 4000
+info 2021-06-07T14:20:09.354Z - starting server
+info 2021-06-07T14:20:09.827Z - server running on port 4000
+info 2021-06-07T14:20:32.098Z - starting server
+info 2021-06-07T14:20:32.527Z - server running on port 4000
+info 2021-06-07T14:20:36.823Z - starting server
+info 2021-06-07T14:20:37.211Z - server running on port 4000
+error 2021-06-07T14:20:52.435Z - CastError: Cast to ObjectId failed for value "undefined" at path "_id" for model "Subject"
+    at model.Query.exec (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4437:21)
+    at model.Query.Query.then (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4531:15)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:17:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-07T14:21:09.072Z - CastError: Cast to ObjectId failed for value "undefined" at path "_id" for model "Subject"
+    at model.Query.exec (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4437:21)
+    at model.Query.Query.then (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4531:15)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:17:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-07T14:24:15.142Z - CastError: Cast to ObjectId failed for value "[object Object]" at path "_id" for model "Subject"
+    at model.Query.exec (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4437:21)
+    at model.Query.Query.then (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4531:15)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:17:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-07T14:25:10.575Z - CastError: Cast to ObjectId failed for value "[object Object]" at path "_id" for model "Subject"
+    at model.Query.exec (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4437:21)
+    at model.Query.Query.then (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4531:15)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:17:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-07T14:26:07.955Z - CastError: Cast to ObjectId failed for value "[object Object]" at path "_id" for model "Subject"
+    at model.Query.exec (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4437:21)
+    at model.Query.Query.then (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4531:15)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:17:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-07T14:26:16.068Z - CastError: Cast to ObjectId failed for value "[object Object]" at path "_id" for model "Subject"
+    at model.Query.exec (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4437:21)
+    at model.Query.Query.then (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4531:15)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/retrieve-subject.js:17:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-07T14:27:26.189Z - starting server
+info 2021-06-07T14:27:26.706Z - server running on port 4000
+info 2021-06-07T14:27:33.070Z - starting server
+info 2021-06-07T14:27:33.486Z - server running on port 4000
+info 2021-06-07T14:27:35.582Z - starting server
+info 2021-06-07T14:27:36.011Z - server running on port 4000
+info 2021-06-07T14:30:13.890Z - starting server
+info 2021-06-07T14:30:14.379Z - server running on port 4000
+info 2021-06-07T14:30:22.493Z - starting server
+info 2021-06-07T14:30:23.009Z - server running on port 4000
+info 2021-06-07T14:30:25.978Z - starting server
+info 2021-06-07T14:30:26.526Z - server running on port 4000

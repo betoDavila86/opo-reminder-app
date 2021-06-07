@@ -7,5 +7,8 @@ module.exports = {
     createSubject: require('./create-subject'),
     retrieveMySubjects: require('./retrieve-my-subjects'),
     retrieveSubjectDetail: require('./retrieve-subject-detail'),
+    searchSubjects: require('./search-subjects'),
     modifySubject: require('./modify-subject'), 
+    removeSubject: require('./remove-subject'),
+    sortSubjects: require('./sort-subjects'),
 }

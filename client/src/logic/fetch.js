@@ -110,16 +110,19 @@ module.exports = {
             const response = await _fetch(url, options);
             const { status } = response;
 
-            if (status === 206) return;
+            if (status === 206) {
+                const results = await response.json();
+                return results;
+            }
 
             if (status >= 400 && status < 500) {
-                const { error } = await response.json();
+                const { message } = await response.json();
 
-                if (status === 401) throw new NotAllowedError(error);
+                if (status === 401) throw new NotAllowedError(message);
 
-                if (status === 404) throw new NotFoundError(error);
+                if (status === 404) throw new NotFoundError(message);
 
-                throw new Error(error);
+                throw new Error(message);
             }
 
             throw new Error('server error');

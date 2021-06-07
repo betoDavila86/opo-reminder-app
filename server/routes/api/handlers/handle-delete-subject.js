@@ -5,7 +5,7 @@ module.exports = (req, res, handleError) => {
         const { userId, params: { subjectId } } = req
 
         deleteSubject(userId, subjectId)
-            .then(() => res.status(200).json({ msg: 'El tema seleccionado fue borrado' }))
+            .then(() => res.status(206).json({ msg: 'El tema seleccionado fue borrado' }))
             .catch(handleError)
     } catch (error) {
         handleError(error)

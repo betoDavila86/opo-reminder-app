@@ -1,15 +1,19 @@
 import React from 'react';
 import './styles.sass';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
-import { faGlasses, faUser  } from '@fortawesome/free-solid-svg-icons';
+import { Link, useHistory, useLocation } from 'react-router-dom';
+import Button from '../commons/Button'
 
 const Header = ({ onSearch, user, onLogout, onGoToHome }) => {
+
+    const history = useHistory();
+    const location = useLocation();
+
     const onSubmit = event => {
         event.preventDefault();
-        const { target: { q: { value: q } } } = event
-
+        const { target: { q: { value: q } } } = event;
         onSearch(q);
+        history.replace(`/search?title=${q}`);
+        // console.log(location);
     }
     return (<>
         <header className="header">
@@ -21,13 +25,13 @@ const Header = ({ onSearch, user, onLogout, onGoToHome }) => {
 
                 {user && (<>
                     <div className="header__user">
-                        <p className="header__welcome">Bienvenid@, {user.fullname.split(' ')[0]}! <FontAwesomeIcon icon={faUser} size='xs'/></p>
+                        <p className="header__welcome">¡Bienvenid@, {user.fullname.split(' ')[0]}!</p>
                         <div className="header__top-end">
                             <Link to="/sign-in" className="header__logout" onClick={onLogout}>Logout</Link>
                             <div className="header__search-container">
                                 <form onSubmit={onSubmit} className="header__form">
                                     <input type='search' id="search" name='q' placeholder='Título del tema'></input>
-                                    <button type="submit"><FontAwesomeIcon icon={faGlasses} size="xl"/></button>
+                                    <Button type="submit">Buscar</Button>
                                 </form>
                             </div>
                         </div>
