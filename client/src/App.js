@@ -219,7 +219,7 @@ function App({ history }) {
           <Route path="/subject-modify/:subjectId">
             <EditSubjectForm subject={subject} onConfirmEdit={confirmEditHandler} />
           </Route>
-          <Route path="/priority">
+          <Route exact path="/priority">
             <PrioritySubjectsLinks onFilterSubjects={filterSubjectsHandler} />
             {filteredSubjects && filteredSubjects.length ? <SubjectList subjects={filteredSubjects} onDetail={subjectDetailHandler} /> : <Card className="secondary"><NotFound type="empty" /></Card>}
           </Route>

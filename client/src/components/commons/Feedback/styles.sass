@@ -20,6 +20,8 @@
     color: green
     background-color: #87f8ef9f
     border-radius: 3px
+    animation-name: moveInUp
+    animation-duration: 1s
 
     &__text
         padding: 1rem
@@ -28,6 +30,18 @@
     padding: 1rem
     display: flex
     justify-content: flex-end
+
+@keyframes moveInUp
+    0%
+        opacity: 0
+        transform: translateY(-100px)
+
+    80%
+        transform: translateY(10px)
+        
+    100%
+        opacity: 1
+        transform: translateY(0)
 
 @media (min-width: 768px)
     .feedback

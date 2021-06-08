@@ -1,7 +1,7 @@
 import './styles.sass';
 import { NavLink } from 'react-router-dom';
 
-const SubjectList = ({ subjects, onDetail }) => {
+const SubjectList = ({ subjects, onDetail, onAddToBombo }) => {
 
     return (
         <>

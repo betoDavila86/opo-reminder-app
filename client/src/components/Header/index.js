@@ -25,15 +25,15 @@ const Header = ({ onSearch, user, onLogout, onGoToHome }) => {
 
                 {user && (<>
                     <div className="header__user">
-                        <p className="header__welcome">¡Bienvenid@, {user.fullname.split(' ')[0]}!</p>
                         <div className="header__top-end">
+                            <p className="header__welcome">¡Bienvenid@, {user.fullname.split(' ')[0]}!</p>
                             <Link to="/sign-in" className="header__logout" onClick={onLogout}>Logout</Link>
-                            <div className="header__search-container">
-                                <form onSubmit={onSubmit} className="header__form">
-                                    <input type='search' id="search" name='q' placeholder='Título del tema'></input>
-                                    <Button type="submit">Buscar</Button>
-                                </form>
-                            </div>
+                        </div>
+                        <div className="header__search-container">
+                            <form onSubmit={onSubmit} className="header__form">
+                                <input type='search' id="search" name='q' placeholder='Título del tema'></input>
+                                <Button type="submit">Buscar</Button>
+                            </form>
                         </div>
                     </div>
                 </>)}

@@ -4761,3 +4761,23 @@ info 2021-06-07T14:30:22.493Z - starting server
 info 2021-06-07T14:30:23.009Z - server running on port 4000
 info 2021-06-07T14:30:25.978Z - starting server
 info 2021-06-07T14:30:26.526Z - server running on port 4000
+info 2021-06-08T10:29:11.542Z - starting server
+info 2021-06-08T10:29:12.202Z - server running on port 4000
+info 2021-06-08T10:29:15.970Z - starting server
+info 2021-06-08T10:29:16.354Z - server running on port 4000
+info 2021-06-08T10:29:22.189Z - starting server
+info 2021-06-08T10:29:22.772Z - server running on port 4000
+info 2021-06-08T10:30:12.167Z - starting server
+info 2021-06-08T10:30:12.771Z - server running on port 4000
+info 2021-06-08T10:30:16.318Z - starting server
+info 2021-06-08T10:30:16.719Z - server running on port 4000
+error 2021-06-08T10:31:47.606Z - TypeError: Cannot read property 'toString' of undefined
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:18:66
+    at Array.forEach (<anonymous>)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:13:38
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-08T10:32:13.436Z - TypeError: Cannot read property 'toString' of undefined
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:18:66
+    at Array.forEach (<anonymous>)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:13:38
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)

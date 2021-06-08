@@ -33,6 +33,18 @@ const Quotes = () => {
         {
             message: 'You don’t have to be great to start, but you have to start to be great.',
             author: 'Zig Ziglar'
+        },
+        {
+            message: 'The way to get started is to quit talking and begin doing.',
+            author: 'Walt Disney'
+        },
+        {
+            message: 'I think it’s possible to ordinary people to choose to be extraordinary.',
+            author: 'Elon Musk'
+        },
+        {
+            message: 'I find that the harder I work, the more luck I seem to have.',
+            author: 'Thomas Jefferson'
         }
     ]
     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
