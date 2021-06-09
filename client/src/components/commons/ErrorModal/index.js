@@ -8,7 +8,7 @@ const ErrorModal = ({ title, message, onHideModal }) => {
         <div>
             <div onClick={onHideModal} className="backdrop" />
             <Card className="modal">
-                <header className="header">
+                <header className="top">
                     <h2>{title}</h2>
                 </header>
                 <div className="content">

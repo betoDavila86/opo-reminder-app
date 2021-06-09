@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.sass';
 import { NavLink } from 'react-router-dom';
 
-function Controls({ user, onRetrieveMySubjects, onFilterSubjects }) {
+function Controls({ user, onRetrieveMySubjects, onFilterSubjects, onGoToBombo }) {
     return (<>
         {user && (<>
             <nav className="nav">
@@ -27,6 +27,12 @@ function Controls({ user, onRetrieveMySubjects, onFilterSubjects }) {
                             className="nav__option"
                             activeClassName="active"
                             onClick={() => onFilterSubjects('by-date')}>Prioritarios
+                            </NavLink>
+                        <NavLink
+                            to="/bombo"
+                            className="nav__option"
+                            activeClassName="active"
+                            onClick={onGoToBombo}>Sorteo
                             </NavLink>
                     </ul>
                 </div>

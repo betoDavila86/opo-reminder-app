@@ -11,4 +11,5 @@ module.exports = {
     modifySubject: require('./modify-subject'), 
     removeSubject: require('./remove-subject'),
     sortSubjects: require('./sort-subjects'),
+    raffleSubjects: require('./raffle')
 }

@@ -4781,3 +4781,115 @@ error 2021-06-08T10:32:13.436Z - TypeError: Cannot read property 'toString' of u
     at Array.forEach (<anonymous>)
     at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:13:38
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-09T10:54:38.861Z - starting server
+error 2021-06-09T10:54:39.390Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:8
+    return Subject.find({ title: { $regex: `.*${query}.*`, $options: 'i' $diacriticSensitive: false } }).populate('creator', 'fullname').lean()
+                                                                         ^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:1:24)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:11:27)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+                                                info 2021-06-09T10:54:39.937Z - starting server
+error 2021-06-09T10:54:40.350Z - /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:8
+    return Subject.find({ title: { $regex: `.*${query}.*`, $options: 'i' $diacriticSensitive: false } }).populate('creator', 'fullname').lean()
+                                                                         ^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-search-subjects.js:1:24)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:11:27)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-09T10:54:40.354Z - stopping server
+info 2021-06-09T10:54:44.742Z - starting server
+info 2021-06-09T10:54:45.135Z - server running on port 4000
+error 2021-06-09T10:55:10.252Z - Error: Can't use $diacriticSensitive with String.
+    at SchemaString.castForQuery (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/schema/string.js:656:13)
+    at SchemaString.SchemaType.castForQueryWrapper (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/schematype.js:1541:22)
+    at cast (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/cast.js:310:39)
+    at model.Query.Query.cast (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4876:12)
+    at model.Query.Query._castConditions (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:1919:10)
+    at model.Query.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:1946:8)
+    at model.Query._wrappedThunk [as _find] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/kareem/index.js:370:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+error 2021-06-09T10:55:20.851Z - Error: Can't use $diacriticSensitive with String.
+    at SchemaString.castForQuery (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/schema/string.js:656:13)
+    at SchemaString.SchemaType.castForQueryWrapper (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/schematype.js:1541:22)
+    at cast (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/cast.js:310:39)
+    at model.Query.Query.cast (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4876:12)
+    at model.Query.Query._castConditions (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:1919:10)
+    at model.Query.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:1946:8)
+    at model.Query._wrappedThunk [as _find] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/kareem/index.js:370:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+error 2021-06-09T10:55:25.961Z - Error: Can't use $diacriticSensitive with String.
+    at SchemaString.castForQuery (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/schema/string.js:656:13)
+    at SchemaString.SchemaType.castForQueryWrapper (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/schematype.js:1541:22)
+    at cast (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/cast.js:310:39)
+    at model.Query.Query.cast (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4876:12)
+    at model.Query.Query._castConditions (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:1919:10)
+    at model.Query.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:1946:8)
+    at model.Query._wrappedThunk [as _find] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/kareem/index.js:370:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+error 2021-06-09T10:55:26.809Z - Error: Can't use $diacriticSensitive with String.
+    at SchemaString.castForQuery (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/schema/string.js:656:13)
+    at SchemaString.SchemaType.castForQueryWrapper (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/schematype.js:1541:22)
+    at cast (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/cast.js:310:39)
+    at model.Query.Query.cast (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:4876:12)
+    at model.Query.Query._castConditions (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:1919:10)
+    at model.Query.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/query.js:1946:8)
+    at model.Query._wrappedThunk [as _find] (/Users/betodav/Desktop/opo-reminder-app/server/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+    at /Users/betodav/Desktop/opo-reminder-app/server/node_modules/kareem/index.js:370:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+info 2021-06-09T10:55:37.024Z - starting server
+info 2021-06-09T10:55:37.588Z - server running on port 4000
+error 2021-06-09T11:05:17.089Z - TypeError: Cannot read property 'toString' of undefined
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:18:66
+    at Array.forEach (<anonymous>)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:13:38
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-09T11:05:18.319Z - TypeError: Cannot read property 'toString' of undefined
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:18:66
+    at Array.forEach (<anonymous>)
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/search-subjects.js:13:38
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-09T11:05:39.038Z - stopping server
+info 2021-06-09T11:05:42.350Z - starting server
+info 2021-06-09T11:05:42.820Z - server running on port 4000
+info 2021-06-09T11:08:27.558Z - starting server
+info 2021-06-09T11:08:27.995Z - server running on port 4000
+info 2021-06-09T11:08:30.123Z - starting server
+info 2021-06-09T11:08:30.679Z - server running on port 4000
+info 2021-06-09T11:08:44.506Z - starting server
+info 2021-06-09T11:08:44.944Z - server running on port 4000
+info 2021-06-09T11:08:50.827Z - starting server
+info 2021-06-09T11:08:51.267Z - server running on port 4000
+info 2021-06-09T11:09:35.106Z - starting server
+info 2021-06-09T11:09:35.531Z - server running on port 4000

@@ -14,7 +14,8 @@ import Spinner from './components/commons/Spinner';
 import Card from './components/commons/Card';
 import EditSubjectForm from './components/EditSubjectForm';
 import Feedback from './components/commons/Feedback';
-import PrioritySubjectsLinks from './components/PrioritySubjects/PrioritySubjectsLinks'
+import PrioritySubjectsLinks from './components/PrioritySubjects/PrioritySubjectsLinks';
+import RaffleForm from './components/Raffle/RaffleForm'
 import Footer from './components/Footer';
 import { Route, withRouter, Redirect, Switch } from 'react-router-dom';
 
@@ -31,6 +32,7 @@ import {
   modifySubject,
   removeSubject,
   sortSubjects,
+  raffleSubjects,
 } from './logic'
 
 function App({ history }) {
@@ -44,6 +46,7 @@ function App({ history }) {
   const [success, setSuccess] = useState(false);
   const [foundSubject, setFoundSubject] = useState();
   const [filteredSubjects, setFilteredSubjects] = useState();
+  const [raffledSubjects, setRaffledSubjects] = useState();
 
   useEffect(() => {
     return (async () => {
@@ -168,6 +171,18 @@ function App({ history }) {
     }
   }
 
+  const raffleSubjectsHandler = async (totalSubjects, chosenNumberSubjects) => {
+    try {
+      const { subjects } = await retrieveMySubjects();
+      const raffledSubjects = raffleSubjects(totalSubjects, chosenNumberSubjects, subjects);
+      setRaffledSubjects(raffledSubjects);
+    } catch ({ message }) {
+      setError(true);
+      setFeedback(message);
+    }
+
+  }
+
   const removeSubjectHandler = async (subjectId) => {
     try {
       const { msg } = await removeSubject(subjectId)
@@ -223,6 +238,7 @@ function App({ history }) {
             <PrioritySubjectsLinks onFilterSubjects={filterSubjectsHandler} />
             {filteredSubjects && filteredSubjects.length ? <SubjectList subjects={filteredSubjects} onDetail={subjectDetailHandler} /> : <Card className="secondary"><NotFound type="empty" /></Card>}
           </Route>
+          <Route path="/bombo" render={() => <RaffleForm onRaffleSubjects={raffleSubjectsHandler} raffledSubjects={raffledSubjects}/>}/>
           <Route path="*">
             {user && <Card className='secondary'>
               <NotFound type='not-found' />

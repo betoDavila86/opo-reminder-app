@@ -1,8 +1,8 @@
 @import ../../../sass/_global
 
 .credentials
-    width: 87.5%
-    margin: 4rem 1.5rem
+    max-width: 350px
+    margin: 5rem auto
     box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.25)
     border-radius: 1em
     display: flex
@@ -51,4 +51,9 @@
             opacity: 0.5
         &:active
             opacity: 0.25
+
+@media (min-width: 768px)
+    .credentials
+        max-width: 550px
+        margin: 7rem auto
         
