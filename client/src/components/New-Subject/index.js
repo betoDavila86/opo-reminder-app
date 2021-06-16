@@ -19,7 +19,6 @@ const NewSubject = ({ onAddSubject }) => {
         } = event;
 
         onAddSubject(number, title, knowledge, studyFrequency, setGoalDate, description);
-        history.push('/my-subjects');
     }
     return (
         <div className="form__container">

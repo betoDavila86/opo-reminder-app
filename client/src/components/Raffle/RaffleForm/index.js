@@ -16,7 +16,7 @@ const RaffleForm = ({ onRaffleSubjects, raffledSubjects }) => {
         onRaffleSubjects(Number(numberSubjectsTotal), Number(numberSubjects));
     }
     return (<>
-        <Card className="description">Haz un simulacro del sorteo de temas según tu caso. El nº de bolas indicarán los temas aleatoriamente escogidos</Card>
+        <Card className="description">* Haz un simulacro del sorteo de temas según tu caso. El nº de bolas indicarán los temas aleatoriamente escogidos</Card>
         <div className="form__container">
             <h1 className="form__title">Sorteo temas</h1>
             <div className="form__separator"></div>

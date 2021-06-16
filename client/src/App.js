@@ -118,6 +118,8 @@ function App({ history }) {
       await createSubject(number, title, knowledge, studyFrequency, setGoalDate, description);
       const { subjects } = await retrieveMySubjects();
       setSubjects(subjects);
+      history.push('/my-subjects');
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
     } catch ({ message }) {
       setFeedback(message);
       setError(true)
@@ -216,7 +218,7 @@ function App({ history }) {
         <Route exact path="/" render={() => isAuth() ? <Redirect to="/home" /> : <Redirect to="/sign-in" />} />
         <Route path="/sign-in" render={() => isAuth() ? <Redirect to="/home" /> : <AuthenticationComponent title="Acceso" navigation={pageHandler} onLogin={loginHandler} error={feedback} />} />
         <Route path="/sign-up" render={() => isAuth() ? <Redirect to="/home" /> : <AuthenticationComponent title="Registro" navigation={pageHandler} onRegister={registerHandler} error={feedback} />} />
-        {user ? <Controls user={user} onRetrieveMySubjects={retrieveMySubjectsHandler} onFilterSubjects={filterSubjectsHandler}/> : null}
+        {user ? <Controls user={user} onRetrieveMySubjects={retrieveMySubjectsHandler} onFilterSubjects={filterSubjectsHandler} /> : null}
         <Switch>
           {loading && <Spinner />}
           {success && <Feedback message={feedback} onHideModal={feedbackHandler} />}
@@ -238,7 +240,7 @@ function App({ history }) {
             <PrioritySubjectsLinks onFilterSubjects={filterSubjectsHandler} />
             {filteredSubjects && filteredSubjects.length ? <SubjectList subjects={filteredSubjects} onDetail={subjectDetailHandler} /> : <Card className="secondary"><NotFound type="empty" /></Card>}
           </Route>
-          <Route path="/bombo" render={() => <RaffleForm onRaffleSubjects={raffleSubjectsHandler} raffledSubjects={raffledSubjects}/>}/>
+          <Route path="/bombo" render={() => <RaffleForm onRaffleSubjects={raffleSubjectsHandler} raffledSubjects={raffledSubjects} />} />
           <Route path="*">
             {user && <Card className='secondary'>
               <NotFound type='not-found' />
