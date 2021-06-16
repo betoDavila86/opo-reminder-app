@@ -13,6 +13,7 @@ const {
     handleDeleteUser,
     handleSearchSubjects,
     handleModifySubject,
+    handleSaveImage,
 } = require('./handlers/index')
 
 const router = new Router()
@@ -50,6 +51,9 @@ router.delete('/api/subjects/delete/:subjectId', jwtParser, withErrorHandling(ha
 router.patch('/api/bombo/:subjectId', jwtParser, withErrorHandling(handleAddSubjectToCollector))
 
 // Update a subject
-router.patch('/api/subjects/:subjectId', jwtParser, withErrorHandling(handleModifySubject))
+router.patch('/api/subjects/:subjectId', jwtParser, withErrorHandling(handleModifySubject));
+
+// Upload a picture for the subject
+router.post('/api/upload/:subjectId', jwtParser, withErrorHandling(handleSaveImage));
 
 module.exports = router

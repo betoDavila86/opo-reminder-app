@@ -4,13 +4,17 @@
         margin: 0.5rem auto
         display: flex
         flex-direction: column
-    
+
+    &__back
+        cursor: pointer
+        text-decoration: underline
+
     &__separator
         width: 100%
         height: 1px
         background-color: darkgrey
         margin: 2% auto
-    
+
     &__container > *
         margin: 3% 0
 
@@ -47,3 +51,15 @@
         margin: 5px 0
         text-indent: 2px
         line-height: 1.7
+
+@media screen and ( min-width: 768px )
+    .subject
+        &__container
+            width: 85%
+            margin: 3rem auto
+
+        &__form textarea
+            width: 100%
+
+        &__btn-container button
+            width: 100%

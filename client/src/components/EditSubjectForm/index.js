@@ -29,7 +29,7 @@ const EditSubjectForm = ({ subject, onConfirmEdit }) => {
 
     return (
         <div className="subject__container">
-            <span onClick={() => history.replace(`/my-subjects/${id}`)}>Atrás</span>
+            <span className="subject__back" onClick={() => history.replace(`/my-subjects/${id}`)}>Atrás</span>
             <Card className="detail">
                 <div className="subject__header">
                     <h1>{number}. {title}</h1>
@@ -74,7 +74,7 @@ const EditSubjectForm = ({ subject, onConfirmEdit }) => {
                             defaultValue={setGoalDate.split('T')[0]} />
                     </div>
                     <div className="subject__btn-container">
-                        <Button type="submit">Confirmar</Button>
+                        <Button className="button" type="submit">Confirmar</Button>
                     </div>
                 </form>
             </Card>

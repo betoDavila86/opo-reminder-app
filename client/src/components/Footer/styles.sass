@@ -1,13 +1,22 @@
 @import ../../sass/_global
-.footer__container
-    height: 40px
-    background-color: $medium-blue
+
+.footer
     position: fixed
-    width: 100%
-    color: white
     bottom: 0
     left: 0
     width: 100%
+
+.footer__container
+    width: 100%
+    height: 50px
+    background-color: $medium-blue
+    color: white
     display: flex
     justify-content: space-evenly
     align-items: center
+
+@media screen and ( min-width: 768px )
+    .footer
+        position: sticky
+        bottom: 0
+        left: 0

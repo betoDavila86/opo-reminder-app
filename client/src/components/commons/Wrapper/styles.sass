@@ -1,0 +1,20 @@
+@import '../../../sass/_global'
+
+.Wrapper
+    min-height: 100vh
+
+@media screen and (min-width: 768px)
+    .Wrapper
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        grid-template-rows: 125px 1fr 50px
+        width: 70%
+        margin: auto
+        background-color: $back-color
+        min-height: 100vh
+        padding: .2%
+        position: relative
+
+    .Wrapper .header,
+    .Wrapper .footer
+        grid-column: 1 / 4

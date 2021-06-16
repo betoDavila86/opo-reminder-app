@@ -16,24 +16,28 @@ function Controls({ user, onRetrieveMySubjects, onFilterSubjects, onGoToBombo })
                             className="nav__option"
                             activeClassName="active">Nuevo tema
                             </NavLink>
+                        <div className="nav__list-separator"></div>
                         <NavLink
                             to="/my-subjects"
                             className="nav__option"
                             activeClassName="active"
                             onClick={onRetrieveMySubjects}>Mis temas
                             </NavLink>
+                        <div className="nav__list-separator"></div>
                         <NavLink
                             to="/priority?sort=date"
                             className="nav__option"
                             activeClassName="active"
                             onClick={() => onFilterSubjects('by-date')}>Prioritarios
                             </NavLink>
+                        <div className="nav__list-separator"></div>
                         <NavLink
                             to="/bombo"
                             className="nav__option"
                             activeClassName="active"
                             onClick={onGoToBombo}>Sorteo
                             </NavLink>
+                        <div className="nav__list-separator"></div>
                     </ul>
                 </div>
             </nav>

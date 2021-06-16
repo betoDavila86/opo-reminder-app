@@ -30,7 +30,7 @@ const RaffleForm = ({ onRaffleSubjects, raffledSubjects }) => {
                     <input type="number" name="numberSubjects" required />
                 </div>
                 <div className="form__button">
-                    <Button type="submit">Sortear</Button>
+                    <Button className="button" type="submit">Sortear</Button>
                 </div>
             </form>
         </div >

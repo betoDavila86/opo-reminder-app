@@ -10,4 +10,5 @@ module.exports = {
     handleDeleteUser: require('./handle-delete-user'),
     handleSearchSubjects: require('./handle-search-subjects'),
     handleModifySubject: require('./handle-modify-subject'),
+    handleSaveImage: require('./handle-save-image'),
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles.sass'
 
-const Button = ({ clicked, children, type }) => {
+const Button = ({ clicked, children, type, className }) => {
   return (
     <button
-      className="button"
+      className={`"button" ${className}`}
       type={type || 'button'}
       onClick={clicked}
     >

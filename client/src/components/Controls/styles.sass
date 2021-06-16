@@ -2,7 +2,7 @@
 
 .nav
     width: 100%
-    margin: 1% 0
+    margin: 2% 0
 
     &__header
         width: 100%
@@ -38,12 +38,41 @@
         padding-bottom: 0.25rem
         border-bottom: 4px solid $dark-blue
 
-
 @media (min-width: 768px)
     .nav
-        &__header
-            font-size: 25px
+        grid-column: 1 / 2
+        margin: 8% 0
+        width: 90%
 
-        & ul
-            width: 65%
-            margin: auto
+        &__flex
+            display: flex
+            flex-direction: column
+
+        &__header
+            font-size: 30px
+            height: 30%
+            justify-content: center
+            align-items: center
+
+        &__list
+            display: flex
+            flex-direction: column
+
+        &__list-separator
+            width: 95%
+            height: 2px
+            background-color: #cecece
+            margin: 1% auto
+
+        &__option
+            cursor: pointer
+            text-align: center
+            margin: 2rem auto
+            width: 100%
+
+        & a:active,
+        & a.active
+            color: $dark-blue
+            padding-bottom: 0.25rem
+            border-bottom: 3px solid $dark-blue
+            width: auto

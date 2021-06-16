@@ -17,6 +17,7 @@ import Feedback from './components/commons/Feedback';
 import PrioritySubjectsLinks from './components/PrioritySubjects/PrioritySubjectsLinks';
 import RaffleForm from './components/Raffle/RaffleForm'
 import Footer from './components/Footer';
+import Main from './components/commons/Main';
 import { Route, withRouter, Redirect, Switch } from 'react-router-dom';
 
 import {
@@ -219,34 +220,36 @@ function App({ history }) {
         <Route path="/sign-in" render={() => isAuth() ? <Redirect to="/home" /> : <AuthenticationComponent title="Acceso" navigation={pageHandler} onLogin={loginHandler} error={feedback} />} />
         <Route path="/sign-up" render={() => isAuth() ? <Redirect to="/home" /> : <AuthenticationComponent title="Registro" navigation={pageHandler} onRegister={registerHandler} error={feedback} />} />
         {user ? <Controls user={user} onRetrieveMySubjects={retrieveMySubjectsHandler} onFilterSubjects={filterSubjectsHandler} /> : null}
-        <Switch>
-          {loading && <Spinner />}
-          {success && <Feedback message={feedback} onHideModal={feedbackHandler} />}
-          <Route path="/home" render={() => <Quote />} />
-          <Route path="/my-subjects/:subjectId">
-            {subject && <SubjectDetail subject={subject} onRemoveSubject={removeSubjectHandler} />}
-          </Route>
-          <Route path="/search">
-            {foundSubject && foundSubject.length ? <SubjectList subjects={foundSubject} onDetail={subjectDetailHandler} /> : <Card className="secondary"><NotFound type="empty" /></Card>}
-          </Route>
-          <Route path="/my-subjects">
-            {subjects && subjects.length ? <SubjectList subjects={subjects} onDetail={subjectDetailHandler} /> : <Card className="secondary"><NotFound type="empty" /></Card>}
-          </Route>
-          <Route path="/new-subject" render={() => <NewSubjectForm error={feedback} onAddSubject={addNewSubjectHandler} />} />
-          <Route path="/subject-modify/:subjectId">
-            <EditSubjectForm subject={subject} onConfirmEdit={confirmEditHandler} />
-          </Route>
-          <Route exact path="/priority">
-            <PrioritySubjectsLinks onFilterSubjects={filterSubjectsHandler} />
-            {filteredSubjects && filteredSubjects.length ? <SubjectList subjects={filteredSubjects} onDetail={subjectDetailHandler} /> : <Card className="secondary"><NotFound type="empty" /></Card>}
-          </Route>
-          <Route path="/bombo" render={() => <RaffleForm onRaffleSubjects={raffleSubjectsHandler} raffledSubjects={raffledSubjects} />} />
-          <Route path="*">
-            {user && <Card className='secondary'>
-              <NotFound type='not-found' />
-            </Card>}
-          </Route>
-        </Switch>
+        <Main>
+          <Switch>
+            {loading && <Spinner />}
+            {success && <Feedback message={feedback} onHideModal={feedbackHandler} />}
+            <Route path="/home" render={() => <Quote />} />
+            <Route path="/my-subjects/:subjectId">
+              {subject && <SubjectDetail subject={subject} onRemoveSubject={removeSubjectHandler} />}
+            </Route>
+            <Route path="/search">
+              {foundSubject && foundSubject.length ? <SubjectList subjects={foundSubject} onDetail={subjectDetailHandler} /> : <Card className="secondary"><NotFound type="empty" /></Card>}
+            </Route>
+            <Route path="/my-subjects">
+              {subjects && subjects.length ? <SubjectList subjects={subjects} onDetail={subjectDetailHandler} /> : <Card className="secondary"><NotFound type="empty" /></Card>}
+            </Route>
+            <Route path="/new-subject" render={() => <NewSubjectForm error={feedback} onAddSubject={addNewSubjectHandler} />} />
+            <Route path="/subject-modify/:subjectId">
+              <EditSubjectForm subject={subject} onConfirmEdit={confirmEditHandler} />
+            </Route>
+            <Route exact path="/priority">
+              <PrioritySubjectsLinks onFilterSubjects={filterSubjectsHandler} />
+              {filteredSubjects && filteredSubjects.length ? <SubjectList subjects={filteredSubjects} onDetail={subjectDetailHandler} /> : <Card className="secondary"><NotFound type="empty" /></Card>}
+            </Route>
+            <Route path="/bombo" render={() => <RaffleForm onRaffleSubjects={raffleSubjectsHandler} raffledSubjects={raffledSubjects} />} />
+            <Route path="*">
+              {user && <Card className='secondary'>
+                <NotFound type='not-found' />
+              </Card>}
+            </Route>
+          </Switch>
+        </Main>
         <Footer />
       </Wrapper>
     </div >

@@ -28,7 +28,7 @@ const SubjectDetail = ({ subject, onRemoveSubject }) => {
                 <p><span>Descripción: </span>{description}</p>
                 <div className="subject__modify">
                     <NavLink to={`/subject-modify/${id}`} className="btn">Editar</NavLink>
-                    <Button clicked={() => onRemoveSubject(id)}>Eliminar</Button>
+                    <Button className="delete" clicked={() => onRemoveSubject(id)}>Eliminar</Button>
                 </div>
             </Card>
         </div>

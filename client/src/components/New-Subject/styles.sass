@@ -48,14 +48,22 @@
     .form
         display: grid
         grid-template-columns: 1fr 1fr
+        grid-gap: .8rem
 
         &__container
-            max-width: 550px
+            max-width: 500px
+            margin: 6rem auto
+
 
         & input
-            width: auto
+            width: 100%
 
         & select
-            width: auto
+            width: 100%
+
+        & label
+            font-size: 18px
+            font-weight: bold
 
         &__button
+            grid-column: 1 / 3

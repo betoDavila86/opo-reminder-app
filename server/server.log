@@ -5571,3 +5571,1349 @@ info 2021-06-16T08:34:29.776Z - starting server
 info 2021-06-16T08:34:30.234Z - server running on port 4000
 info 2021-06-16T08:34:33.029Z - starting server
 info 2021-06-16T08:34:33.430Z - server running on port 4000
+error 2021-06-16T13:49:20.250Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2021-06-16T13:49:27.856Z - AuthError: usuario o contraseña incorrectos
+    at /Users/betodav/Desktop/opo-reminder-app/server/logic/authentication-user.js:13:30
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-16T15:09:17.374Z - starting server
+info 2021-06-16T15:09:17.910Z - server running on port 4000
+info 2021-06-16T15:09:35.478Z - starting server
+info 2021-06-16T15:09:35.920Z - server running on port 4000
+info 2021-06-16T15:10:29.476Z - starting server
+info 2021-06-16T15:10:29.977Z - server running on port 4000
+info 2021-06-16T15:10:34.028Z - starting server
+info 2021-06-16T15:10:34.582Z - server running on port 4000
+info 2021-06-16T15:10:35.266Z - starting server
+info 2021-06-16T15:10:35.764Z - server running on port 4000
+info 2021-06-16T15:10:38.359Z - starting server
+info 2021-06-16T15:10:38.800Z - server running on port 4000
+info 2021-06-16T15:10:39.325Z - starting server
+info 2021-06-16T15:10:39.727Z - server running on port 4000
+info 2021-06-16T15:10:43.099Z - starting server
+info 2021-06-16T15:10:43.567Z - server running on port 4000
+info 2021-06-16T15:10:44.760Z - starting server
+info 2021-06-16T15:10:45.197Z - server running on port 4000
+info 2021-06-16T15:10:47.982Z - starting server
+info 2021-06-16T15:10:48.442Z - server running on port 4000
+info 2021-06-16T15:10:50.153Z - starting server
+info 2021-06-16T15:10:50.563Z - server running on port 4000
+info 2021-06-16T15:10:52.450Z - starting server
+info 2021-06-16T15:10:52.890Z - server running on port 4000
+info 2021-06-16T15:10:54.350Z - starting server
+info 2021-06-16T15:10:54.816Z - server running on port 4000
+info 2021-06-16T15:10:58.156Z - starting server
+info 2021-06-16T15:10:58.612Z - server running on port 4000
+info 2021-06-16T15:11:04.404Z - starting server
+info 2021-06-16T15:11:04.879Z - server running on port 4000
+info 2021-06-16T15:11:06.656Z - starting server
+info 2021-06-16T15:11:07.083Z - server running on port 4000
+info 2021-06-16T15:11:09.283Z - starting server
+info 2021-06-16T15:11:09.699Z - server running on port 4000
+info 2021-06-16T15:11:12.963Z - starting server
+info 2021-06-16T15:11:13.368Z - server running on port 4000
+info 2021-06-16T15:11:20.759Z - starting server
+info 2021-06-16T15:11:21.155Z - server running on port 4000
+info 2021-06-16T15:11:22.456Z - starting server
+info 2021-06-16T15:11:22.894Z - server running on port 4000
+info 2021-06-16T15:11:42.507Z - starting server
+info 2021-06-16T15:11:42.906Z - server running on port 4000
+info 2021-06-16T15:11:44.716Z - starting server
+info 2021-06-16T15:11:45.138Z - server running on port 4000
+info 2021-06-16T15:11:54.114Z - starting server
+info 2021-06-16T15:11:54.562Z - server running on port 4000
+info 2021-06-16T15:11:58.577Z - starting server
+info 2021-06-16T15:11:59.001Z - server running on port 4000
+info 2021-06-16T15:12:00.635Z - starting server
+info 2021-06-16T15:12:01.075Z - server running on port 4000
+info 2021-06-16T15:12:05.834Z - starting server
+info 2021-06-16T15:12:06.271Z - server running on port 4000
+info 2021-06-16T15:12:07.509Z - starting server
+info 2021-06-16T15:12:07.896Z - server running on port 4000
+info 2021-06-16T15:12:17.381Z - starting server
+info 2021-06-16T15:12:17.859Z - server running on port 4000
+info 2021-06-16T15:12:21.261Z - starting server
+info 2021-06-16T15:12:23.347Z - server running on port 4000
+info 2021-06-16T15:12:36.219Z - starting server
+info 2021-06-16T15:12:36.628Z - server running on port 4000
+info 2021-06-16T15:12:41.444Z - starting server
+info 2021-06-16T15:12:41.857Z - server running on port 4000
+info 2021-06-16T15:12:51.729Z - starting server
+info 2021-06-16T15:12:52.190Z - server running on port 4000
+info 2021-06-16T15:13:05.378Z - starting server
+info 2021-06-16T15:13:05.766Z - server running on port 4000
+info 2021-06-16T15:13:10.243Z - starting server
+info 2021-06-16T15:13:10.651Z - server running on port 4000
+info 2021-06-16T15:13:17.793Z - starting server
+info 2021-06-16T15:13:18.278Z - server running on port 4000
+info 2021-06-16T15:13:24.013Z - starting server
+info 2021-06-16T15:13:24.551Z - server running on port 4000
+info 2021-06-16T15:13:28.687Z - starting server
+info 2021-06-16T15:13:29.261Z - server running on port 4000
+info 2021-06-16T15:13:33.002Z - starting server
+info 2021-06-16T15:13:33.427Z - server running on port 4000
+info 2021-06-16T15:13:40.069Z - starting server
+info 2021-06-16T15:13:40.480Z - server running on port 4000
+info 2021-06-16T15:13:45.133Z - starting server
+info 2021-06-16T15:13:45.553Z - server running on port 4000
+info 2021-06-16T15:13:52.349Z - starting server
+info 2021-06-16T15:13:52.795Z - server running on port 4000
+info 2021-06-16T15:14:31.849Z - starting server
+info 2021-06-16T15:14:32.353Z - server running on port 4000
+info 2021-06-16T15:14:35.479Z - starting server
+info 2021-06-16T15:14:35.886Z - server running on port 4000
+info 2021-06-16T15:14:48.215Z - starting server
+info 2021-06-16T15:14:48.623Z - server running on port 4000
+info 2021-06-16T15:14:51.717Z - starting server
+info 2021-06-16T15:14:52.191Z - server running on port 4000
+info 2021-06-16T15:18:27.829Z - starting server
+info 2021-06-16T15:18:28.351Z - server running on port 4000
+info 2021-06-16T15:18:34.971Z - starting server
+error 2021-06-16T15:18:35.437Z - ReferenceError: handleSave is not defined
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:16:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/index.js:2:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-16T15:18:35.440Z - stopping server
+info 2021-06-16T15:18:39.744Z - starting server
+error 2021-06-16T15:18:40.155Z - TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:120:11)
+    at Module.require (internal/modules/cjs/loader.js:896:3)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:16:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+info 2021-06-16T15:18:40.160Z - stopping server
+info 2021-06-16T15:18:41.285Z - starting server
+error 2021-06-16T15:18:41.721Z - TypeError [ERR_INVALID_ARG_VALUE]: The argument 'id' must be a non-empty string. Received ''
+    at Module.require (internal/modules/cjs/loader.js:898:11)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:16:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+info 2021-06-16T15:18:41.724Z - stopping server
+info 2021-06-16T15:18:42.764Z - starting server
+error 2021-06-16T15:18:43.150Z - Error: Cannot find module '/'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:16:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:18:43.154Z - stopping server
+info 2021-06-16T15:18:47.584Z - starting server
+error 2021-06-16T15:18:48.000Z - Error: Cannot find module './han'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:16:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:18:48.003Z - stopping server
+info 2021-06-16T15:18:49.643Z - starting server
+info 2021-06-16T15:18:50.036Z - server running on port 4000
+info 2021-06-16T15:18:51.772Z - starting server
+info 2021-06-16T15:18:52.180Z - server running on port 4000
+info 2021-06-16T15:19:21.375Z - starting server
+error 2021-06-16T15:19:21.884Z - Error: Cannot find module '../../logic'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:2:29)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:19:21.890Z - stopping server
+info 2021-06-16T15:19:28.380Z - starting server
+error 2021-06-16T15:19:28.834Z - /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:2
+const  = require('../../logic')
+       ^
+
+SyntaxError: Unexpected token '='
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:16:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-16T15:19:28.838Z - stopping server
+info 2021-06-16T15:19:32.160Z - starting server
+error 2021-06-16T15:19:32.610Z - /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:2
+const  = require('')
+       ^
+
+SyntaxError: Unexpected token '='
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:16:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-16T15:19:32.614Z - stopping server
+info 2021-06-16T15:19:37.523Z - starting server
+error 2021-06-16T15:19:38.010Z - TypeError [ERR_INVALID_ARG_VALUE]: The argument 'id' must be a non-empty string. Received ''
+    at Module.require (internal/modules/cjs/loader.js:898:11)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:2:19)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+info 2021-06-16T15:19:38.015Z - stopping server
+info 2021-06-16T15:19:40.646Z - starting server
+error 2021-06-16T15:19:41.094Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:19:41.098Z - stopping server
+info 2021-06-16T15:19:42.176Z - starting server
+error 2021-06-16T15:19:42.590Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:19:42.597Z - stopping server
+info 2021-06-16T15:19:44.205Z - starting server
+error 2021-06-16T15:19:44.593Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:19:44.596Z - stopping server
+info 2021-06-16T15:19:46.765Z - starting server
+error 2021-06-16T15:19:47.263Z - Error: Cannot find module '../../../logic'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:2:19)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:19:47.266Z - stopping server
+info 2021-06-16T15:19:48.994Z - starting server
+error 2021-06-16T15:19:49.394Z - Error: Cannot find module '../../../logic/s'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:2:19)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:19:49.397Z - stopping server
+info 2021-06-16T15:19:51.374Z - starting server
+error 2021-06-16T15:19:51.754Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:19:51.757Z - stopping server
+info 2021-06-16T15:20:02.817Z - starting server
+error 2021-06-16T15:20:03.202Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:20:03.205Z - stopping server
+info 2021-06-16T15:20:18.308Z - starting server
+error 2021-06-16T15:20:18.704Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:20:18.708Z - stopping server
+info 2021-06-16T15:20:32.796Z - starting server
+error 2021-06-16T15:20:33.202Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:20:33.205Z - stopping server
+info 2021-06-16T15:20:33.978Z - starting server
+error 2021-06-16T15:20:34.452Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:20:34.458Z - stopping server
+info 2021-06-16T15:21:11.651Z - starting server
+error 2021-06-16T15:21:12.124Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:21:12.128Z - stopping server
+info 2021-06-16T15:21:16.963Z - starting server
+error 2021-06-16T15:21:17.366Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:21:17.372Z - stopping server
+info 2021-06-16T15:21:25.146Z - starting server
+error 2021-06-16T15:21:25.581Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:21:25.587Z - stopping server
+info 2021-06-16T15:21:42.193Z - starting server
+error 2021-06-16T15:21:42.593Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:21:42.598Z - stopping server
+info 2021-06-16T15:22:19.288Z - starting server
+error 2021-06-16T15:22:19.738Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:22:19.742Z - stopping server
+info 2021-06-16T15:23:54.954Z - starting server
+error 2021-06-16T15:23:55.427Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:23:55.431Z - stopping server
+info 2021-06-16T15:24:58.856Z - starting server
+error 2021-06-16T15:24:59.360Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:24:59.365Z - stopping server
+info 2021-06-16T15:25:34.836Z - starting server
+error 2021-06-16T15:25:35.484Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:25:35.489Z - stopping server
+info 2021-06-16T15:25:40.271Z - starting server
+error 2021-06-16T15:25:40.743Z - /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:17
+            res.json({'uploaded!'});
+                                 ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:16:5)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+info 2021-06-16T15:25:40.746Z - stopping server
+info 2021-06-16T15:25:43.812Z - starting server
+error 2021-06-16T15:25:44.267Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:25:44.271Z - stopping server
+info 2021-06-16T15:25:45.221Z - starting server
+error 2021-06-16T15:25:45.650Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:25:45.653Z - stopping server
+info 2021-06-16T15:25:56.254Z - starting server
+error 2021-06-16T15:25:56.668Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:25:56.671Z - stopping server
+info 2021-06-16T15:26:39.772Z - starting server
+error 2021-06-16T15:26:40.209Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:26:40.213Z - stopping server
+info 2021-06-16T15:26:42.275Z - starting server
+error 2021-06-16T15:26:42.724Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:26:42.728Z - stopping server
+info 2021-06-16T15:26:51.327Z - starting server
+error 2021-06-16T15:26:51.763Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:26:51.767Z - stopping server
+info 2021-06-16T15:27:00.946Z - starting server
+error 2021-06-16T15:27:01.415Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:27:01.419Z - stopping server
+info 2021-06-16T15:27:01.850Z - starting server
+error 2021-06-16T15:27:02.237Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:27:02.241Z - stopping server
+info 2021-06-16T15:27:42.212Z - starting server
+error 2021-06-16T15:27:42.672Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:27:42.677Z - stopping server
+info 2021-06-16T15:27:47.316Z - starting server
+error 2021-06-16T15:27:47.744Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:27:47.751Z - stopping server
+info 2021-06-16T15:27:52.897Z - starting server
+info 2021-06-16T15:27:53.857Z - starting server
+error 2021-06-16T15:27:54.250Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:27:54.258Z - stopping server
+info 2021-06-16T15:27:58.401Z - starting server
+error 2021-06-16T15:27:58.820Z - /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js:56
+router.post('/upload/:subjectId', jwtParser, with)
+                                             ^^^^
+
+SyntaxError: Unexpected token 'with'
+    at wrapSafe (internal/modules/cjs/loader.js:931:16)
+    at Module._compile (internal/modules/cjs/loader.js:979:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/index.js:2:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at /Users/betodav/Desktop/opo-reminder-app/server/index.js:20:25
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+info 2021-06-16T15:27:58.821Z - stopping server
+info 2021-06-16T15:28:01.308Z - starting server
+error 2021-06-16T15:28:01.801Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:28:01.819Z - stopping server
+info 2021-06-16T15:28:04.419Z - starting server
+error 2021-06-16T15:28:04.821Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:28:04.829Z - stopping server
+info 2021-06-16T15:28:09.345Z - starting server
+error 2021-06-16T15:28:09.732Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:28:09.736Z - stopping server
+info 2021-06-16T15:28:14.004Z - starting server
+error 2021-06-16T15:28:14.420Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:28:14.425Z - stopping server
+info 2021-06-16T15:28:18.219Z - starting server
+error 2021-06-16T15:28:18.664Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:28:18.670Z - stopping server
+info 2021-06-16T15:28:22.414Z - starting server
+error 2021-06-16T15:28:22.848Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:28:22.852Z - stopping server
+info 2021-06-16T15:28:30.753Z - starting server
+error 2021-06-16T15:28:31.154Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:28:31.158Z - stopping server
+info 2021-06-16T15:28:33.052Z - starting server
+error 2021-06-16T15:28:33.452Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:28:33.455Z - stopping server
+info 2021-06-16T15:28:43.081Z - starting server
+error 2021-06-16T15:28:43.538Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:28:43.542Z - stopping server
+info 2021-06-16T15:29:21.753Z - starting server
+error 2021-06-16T15:29:22.202Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:29:22.205Z - stopping server
+info 2021-06-16T15:29:22.886Z - starting server
+error 2021-06-16T15:29:23.286Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:2:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-16T15:29:23.291Z - stopping server

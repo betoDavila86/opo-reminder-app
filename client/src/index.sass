@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap')
+@import './sass/_global'
 
 $font-main: 'Roboto', sans-serif
-$font-color: #292828
-$back-color: #eeeaea
+$font-color: #3b3a3a
 
 *
     margin: 0
@@ -32,8 +32,14 @@ input
 body
     font-family: $font-main
     font-size: 16px
-    min-height: 400px
-    margin-bottom: 100px
+    min-height: 100vh
+    margin-bottom: 50px
     color: $font-color
     padding: 5px
     background-color: $back-color
+
+@media screen and ( min-width: 768px )
+    body
+        background: linear-gradient(-135deg, rgb(125, 165, 238) 0%, transparent), repeating-linear-gradient(45deg, rgba(125, 165, 238, 1) 0%, rgba(31, 48, 94, 0.6) 5%, transparent 5%, transparent 10%), repeating-linear-gradient(-45deg, rgba(34, 76, 152, 0.4) 0%, rgba(31, 48, 94, 0.5) 5%, transparent 5%, transparent 10%)
+        background-color: rgba(34, 76, 152, 0.25)
+        background-attachment: fixed

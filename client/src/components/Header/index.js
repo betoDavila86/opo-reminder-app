@@ -3,10 +3,9 @@ import './styles.sass';
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import Button from '../commons/Button'
 
-const Header = ({ onSearch, user, onLogout, onGoToHome }) => {
+const Header = ({ onSearch, user, onLogout }) => {
 
     const history = useHistory();
-    const location = useLocation();
 
     const onSubmit = event => {
         event.preventDefault();
@@ -26,13 +25,13 @@ const Header = ({ onSearch, user, onLogout, onGoToHome }) => {
                 {user && (<>
                     <div className="header__user">
                         <div className="header__top-end">
-                            <p className="header__welcome">¡Bienvenid@, {user.fullname.split(' ')[0]}!</p>
+                            <p onClick={() => history.push('/')} className="header__welcome">¡Bienvenid@, {user.fullname.split(' ')[0]}!</p>
                             <Link to="/sign-in" className="header__logout" onClick={onLogout}>Logout</Link>
                         </div>
                         <div className="header__search-container">
                             <form onSubmit={onSubmit} className="header__form">
                                 <input type='search' id="search" name='q' placeholder='Título del tema'></input>
-                                <Button type="submit">Buscar</Button>
+                                <Button className="button" type="submit">Buscar</Button>
                             </form>
                         </div>
                     </div>

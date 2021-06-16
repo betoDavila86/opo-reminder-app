@@ -33,5 +33,14 @@
         color: $font-color
 
 @media (min-width: 768px)
-    .list__container
-        width: 45%
+    .list
+        display: grid
+        grid-column-gap: 5%
+        grid-template-columns: 1fr 1fr
+
+        &__container
+            width: 85%
+
+        &__item
+
+            
