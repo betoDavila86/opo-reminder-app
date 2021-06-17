@@ -13,7 +13,7 @@ const SubjectDetail = ({ subject, onRemoveSubject }) => {
 
     return (
         <div className="subject__container">
-            <span className="subject__back" onClick={() => history.goBack()}>Atrás</span>
+            <span className="subject__back" onClick={() => history.replace('/my-subjects')}>Atrás</span>
             <Card className="detail">
                 <div className="subject__header">
                     <h1>{number}. {title}</h1>

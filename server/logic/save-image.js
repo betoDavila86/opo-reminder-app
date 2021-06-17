@@ -14,7 +14,7 @@ module.exports = function (userId, subjectId, file, filename) {
         const user = await User.findById(userId)
         if (!user) throw new NotFoundError(`Usuario con id ${userId} no encontrado`);
 
-        const toilet = await Subject.findById(subjectId)
+        const subject = await Subject.findById(subjectId)
         if (!subject) throw new NotFoundError(`Tema con id ${subjectId} no encontrado`)
 
         const dir = `./data/subjects/${subjectId}`

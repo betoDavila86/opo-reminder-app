@@ -28,7 +28,7 @@ function Controls({ user, onRetrieveMySubjects, onFilterSubjects, onGoToBombo })
                             to="/priority?sort=date"
                             className="nav__option"
                             activeClassName="active"
-                            onClick={() => onFilterSubjects('by-date')}>Prioritarios
+                            onClick={() => onFilterSubjects('by-date')}>Ordenar
                             </NavLink>
                         <div className="nav__list-separator"></div>
                         <NavLink

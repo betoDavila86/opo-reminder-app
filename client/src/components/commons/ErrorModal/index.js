@@ -15,7 +15,7 @@ const ErrorModal = ({ title, message, onHideModal }) => {
                     <p>{message}</p>
                 </div>
                 <footer className="actions">
-                    <Button clicked={onHideModal}>OK</Button>
+                    <Button className="button" clicked={onHideModal}>OK</Button>
                 </footer>
             </Card>
         </div>

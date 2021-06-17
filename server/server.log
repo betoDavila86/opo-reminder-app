@@ -6917,3 +6917,31 @@ Require stack:
     at Module.load (internal/modules/cjs/loader.js:879:32)
     at Function.Module._load (internal/modules/cjs/loader.js:724:14)
 info 2021-06-16T15:29:23.291Z - stopping server
+info 2021-06-17T07:46:58.406Z - starting server
+error 2021-06-17T07:46:58.868Z - Error: Cannot find module 'busboy'
+Require stack:
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/api/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/routes/index.js
+- /Users/betodav/Desktop/opo-reminder-app/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:831:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/handle-save-image.js:2:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/betodav/Desktop/opo-reminder-app/server/routes/api/handlers/index.js:13:22)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+info 2021-06-17T07:46:58.872Z - stopping server
+info 2021-06-17T07:48:12.340Z - starting server
+info 2021-06-17T07:48:12.863Z - server running on port 4000
+info 2021-06-17T09:46:24.982Z - stopping server

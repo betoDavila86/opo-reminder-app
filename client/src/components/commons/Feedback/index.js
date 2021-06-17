@@ -8,7 +8,7 @@ function Feedback({ message, onHideModal }) {
             <div className="feedback">
                 <h2 className={`feedback__text`}>{message}</h2>
                 <div className="actions">
-                    <Button clicked={onHideModal}>Ok</Button>
+                    <Button className="button" clicked={onHideModal}>Ok</Button>
                 </div>
             </div>
         </div>

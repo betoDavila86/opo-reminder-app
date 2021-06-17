@@ -14,13 +14,13 @@ function PrioritySubjectsLinks({ onFilterSubjects }) {
                         to={`${match.path}?sort=knowledge`}
                         className="priority__option"
                         onClick={() => onFilterSubjects('by-knowledge')}
-                        activeClassName="active">Por conocimiento
+                        activeClassName="is-active">Por prioridad
                             </NavLink>
                     <NavLink
                         exact
                         to={`${match.path}?sort=date`}
                         className="priority__option"
-                        activeClassName="active"
+                        activeClassName="is-active"
                         onClick={() => onFilterSubjects('by-date')}>Por fecha
                             </NavLink>
                 </ul>
