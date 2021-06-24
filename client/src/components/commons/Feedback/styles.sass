@@ -26,10 +26,29 @@
     &__text
         padding: 1rem
 
+.warning
+    position: fixed
+    top: 30vh
+    left: 10%
+    width: 80%
+    z-index: 100
+    overflow: hidden
+    border: 1px solid #8b7a2efb
+    color: #463b0dfb
+    background-color: #f1de89fb
+    border-radius: 3px
+    animation-name: moveInUp
+    animation-duration: 1s
+
+
 .actions
-    padding: 1rem
+    padding: .8rem
     display: flex
     justify-content: flex-end
+
+    & > *
+        margin-right: 2px 
+
 
 @keyframes moveInUp
     0%

@@ -1,10 +1,43 @@
+@import '../../../sass/_global'
+
 .raffle
-    width: 75%
-    margin: 1rem auto
-    border: 1px solid black
+    width: 90%
+    margin: 3rem auto
+    padding: 1rem
+    background-color: $light-blue
+    border-radius: 1rem
+    box-shadow: 0 6px 12px rgba(0,0,0,.3)
+    animation-name: moveInUp
+    animation-duration: 2s
 
     & *
         margin: 1%
+        color: white
     
     & ul
         list-style: none
+
+    &__title
+        font-size: 2rem
+        font-weight: 400
+        color: $font-color-light
+
+    &__list div
+        display: flex
+        align-items: center
+
+    &__list-icon
+
+
+@keyframes moveInUp
+    0%
+        opacity: 0
+        transform: translateY(-200px)
+
+    80%
+        opacity: .7
+        transform: translateY(75px)
+        
+    100%
+        opacity: 1
+        transform: translateY(0)

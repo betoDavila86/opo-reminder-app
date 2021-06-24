@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap')
 @import './sass/_global'
 
 $font-main: 'Roboto', sans-serif
-$font-color: #3b3a3a
+$font-color: #494848
 
 *
     margin: 0
@@ -14,29 +14,21 @@ textarea
     resize: none
 
 input
-    border: 0
+    border: none
 
     &:focus
         outline: none
 
-.icon
-    cursor: pointer
-    text-align: center
-
-    &:hover
-        opacity: 0.5
-
-    &:active
-        opacity: 0.25
+a
+    text-decoration: none
 
 body
     font-family: $font-main
     font-size: 19px
     min-height: 100vh
-    margin-bottom: 50px
+    margin-bottom: 100px
     color: $font-color
     padding: 5px
-    background-color: $back-color
 
 @media screen and ( min-width: 768px )
     body

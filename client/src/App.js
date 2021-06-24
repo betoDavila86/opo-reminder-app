@@ -48,6 +48,7 @@ function App({ history }) {
   const [foundSubject, setFoundSubject] = useState();
   const [filteredSubjects, setFilteredSubjects] = useState();
   const [raffledSubjects, setRaffledSubjects] = useState();
+  const [warning, setWarning] = useState(false);
 
   useEffect(() => {
     return (async () => {
@@ -183,13 +184,13 @@ function App({ history }) {
       setError(true);
       setFeedback(message);
     }
-
   }
 
   const removeSubjectHandler = async (subjectId) => {
     try {
+      setWarning(false);
       const { msg } = await removeSubject(subjectId)
-      setSuccess(true);
+      if (!success) setSuccess(true);
       setFeedback(msg);
       history.replace('/my-subjects');
       const { subjects } = await retrieveMySubjects();
@@ -208,6 +209,12 @@ function App({ history }) {
   const feedbackHandler = () => {
     if (success) setSuccess(false);
     if (feedback) setFeedback(null);
+    if (warning) setWarning(false);
+  }
+
+  const confirmationHandler = (subjectId) => {
+    setWarning(true);
+    history.push(`/my-subjects/confirm/${subjectId}`)
   }
 
 
@@ -223,10 +230,13 @@ function App({ history }) {
         <Main>
           <Switch>
             {loading && <Spinner />}
-            {success && <Feedback message={feedback} onHideModal={feedbackHandler} />}
+            {success && <Feedback message={feedback} onHideModal={feedbackHandler} warning={warning} />}
+            <Route path="/my-subjects/confirm/:subjectId">
+              {warning && <Feedback message={feedback} onHideModal={feedbackHandler} onRemoveSubject={removeSubjectHandler} warning={warning} />}
+            </Route>
             <Route path="/home" render={() => <Quote />} />
             <Route path="/my-subjects/:subjectId">
-              {subject && <SubjectDetail subject={subject} onRemoveSubject={removeSubjectHandler} />}
+              {subject && <SubjectDetail subject={subject} onDelete={confirmationHandler} />}
             </Route>
             <Route path="/search">
               {foundSubject && foundSubject.length ? <SubjectList subjects={foundSubject} onDetail={subjectDetailHandler} /> : <Card className="secondary"><NotFound type="empty" /></Card>}

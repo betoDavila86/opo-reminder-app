@@ -1,7 +1,7 @@
 import './styles.sass'
 import Button from '../../commons/Button';
 import RaffleList from '../RaffleList';
-import Card from '../../commons/Card';
+import { UilExclamationTriangle } from '@iconscout/react-unicons';
 
 const RaffleForm = ({ onRaffleSubjects, raffledSubjects }) => {
 
@@ -16,7 +16,8 @@ const RaffleForm = ({ onRaffleSubjects, raffledSubjects }) => {
         onRaffleSubjects(Number(numberSubjectsTotal), Number(numberSubjects));
     }
     return (<>
-        <Card className="description">* Haz un simulacro del sorteo de temas según tu caso. El nº de bolas indicarán los temas aleatoriamente escogidos</Card>
+        <h3 className="raffle__info"><span><UilExclamationTriangle className="raffle__info-icon" size="35" /></span> 
+        Haz un simulacro del sorteo de temas añadidos hasta ahora. El nº de bolas indicarán los temas aleatoriamente escogidos</h3>
         <div className="form__container">
             <h1 className="form__title">Sorteo temas</h1>
             <div className="form__separator"></div>

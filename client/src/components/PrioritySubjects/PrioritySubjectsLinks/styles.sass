@@ -3,15 +3,26 @@
 .priority
     width: 100%
     margin: 2% 0
-    
 
+    &__option
+        display: flex
+        align-items: center
+        box-shadow: 0 8px 15px rgba(0, 0, 0, .2)
+        padding: .5rem
+        border-radius: 1rem
+        transition: .3s
+
+        &-icon
+            margin-left: 3px
+    
     & ul
         list-style: none
         display: flex
         padding: 1% 0
         margin: 0
         align-items: center
-        justify-content: space-around
+        justify-content: center
+        gap: 1.5rem
 
     & li
         margin: 0 1rem
@@ -21,15 +32,11 @@
         color: $font-color
         text-decoration: none
         font-size: 16px
-        font-weight: bold
 
     & a:hover,
     & a:active,
-    & a.is-active
         color: $dark-blue
         padding-bottom: 0.2rem
-        border-bottom: 2px solid $dark-blue
-        font-weight: bold
 
 
 @media screen and ( min-width: 768px )

@@ -1,6 +1,8 @@
+@import '../../../sass/_global'
+
 .card
-    background: white
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26)
+    background-color: white
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3)
     border-radius: 5px
     
 .detail
@@ -10,8 +12,14 @@
         margin-bottom: 6%
 
     & span
-        font-weight: bolder
         font-size: 20px
+
+    & h1
+        font-weight: 400
+        font-size: 2rem
+
+    & p
+        font-size: 16px
 
 .secondary
     width: 95%
@@ -20,13 +28,6 @@
     margin: 1rem auto
     text-align: center
     box-shadow: 10px 10px 8px -5px rgba(0, 0, 0, 0.26)
-
-.description
-    padding: .5rem
-    font-size: 20px
-    text-align: center
-    margin: auto
-    width: 90%
 
 
 @media screen and ( min-width: 768px )

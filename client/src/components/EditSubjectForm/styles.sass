@@ -1,3 +1,5 @@
+@import '../../sass/_global'
+
 .subject
     &__container
         width: 85%
@@ -7,7 +9,6 @@
 
     &__back
         cursor: pointer
-        text-decoration: underline
 
     &__separator
         width: 100%
@@ -15,11 +16,8 @@
         background-color: darkgrey
         margin: 2% auto
 
-    &__container > *
-        margin: 3% 0
-
     &__creator
-        color: rgb(156, 155, 155)
+        color: $font-color-light
 
     &__modify
         float: right
@@ -27,13 +25,21 @@
     &__modify > *
         margin-right: 3px
 
+    &__form
+        display: grid
+
     &__form *
         font-family: inherit
         font-size: 15px
 
+    &__form label
+        font-size: 20px
+
     &__form textarea
         text-indent: 10px
         padding: 1% 0
+        width: 100%
+        border: 1px solid $font-color-light
 
     &__btn-container
         padding: 2% 0
@@ -41,13 +47,11 @@
         justify-content: flex-end
 
 .input-items
-    display: flex
-    flex-flow: wrap
-    width: 90%
-    margin: auto
+    display: grid
+    grid-template-columns: 1fr 1fr 
 
     & *
-        width: 50%
+        width: 100%
         margin: 5px 0
         text-indent: 2px
         line-height: 1.7

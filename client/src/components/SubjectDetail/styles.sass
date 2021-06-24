@@ -3,16 +3,13 @@
 .subject
     &__container
         width: 90%
-        margin: 0.5rem auto
         display: flex
         flex-direction: column
 
     &__back
         cursor: pointer
-        text-decoration: underline
-        font-size: 20px
 
-    &__back:hover
+    &__back-icon:hover
         color: $dark-blue
     
     &__separator
@@ -20,16 +17,22 @@
         height: 1px
         background-color: darkgrey
         margin: 2% auto
-    
-    &__container > *
-        margin: 3% 0
 
-    &__footer
+    &__info
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+
+    &__info-icon
+        color: $dark-blue
+
+    &__info div
+        grid-column: 1/-1
+        margin-bottom: 3%
         display: flex
-        justify-content: space-between
+        align-items: center
 
     &__creator
-        color: rgb(156, 155, 155)
+        color: $font-color-light
 
     &__modify
         float: right

@@ -1,7 +1,8 @@
 import './styles.sass'
 import { useParams, useHistory } from 'react-router-dom';
 import Card from '../commons/Card'
-import Button from '../commons/Button'
+import Button from '../commons/Button';
+import { UilArrowLeft } from '@iconscout/react-unicons'
 
 const EditSubjectForm = ({ subject, onConfirmEdit }) => {
 
@@ -29,7 +30,7 @@ const EditSubjectForm = ({ subject, onConfirmEdit }) => {
 
     return (
         <div className="subject__container">
-            <span className="subject__back" onClick={() => history.replace(`/my-subjects/${id}`)}>Atrás</span>
+            <span className="subject__back" onClick={() => history.replace(`/my-subjects/${id}`)}><UilArrowLeft className="subject__back-icon" size="40" /></span>
             <Card className="detail">
                 <div className="subject__header">
                     <h1>{number}. {title}</h1>
@@ -37,13 +38,15 @@ const EditSubjectForm = ({ subject, onConfirmEdit }) => {
                     <p className="subject__creator">{creator.fullname}</p>
                 </div>
                 <form onSubmit={onSubmit} className="subject__form">
+                    <div className="subject__form-textarea">
                     <label htmlFor="description">Descripción: </label>
                     <textarea
                         name="description"
                         id="description"
                         rows="5"
-                        cols="42"
+                        cols="0"
                         defaultValue={description} />
+                    </div>
                     <div className="input-items">
                         <label htmlFor="studyFrequency">Estudio </label>
                         <select name="studyFrequency" required>
