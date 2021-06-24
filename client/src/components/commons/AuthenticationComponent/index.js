@@ -1,10 +1,9 @@
 import React from 'react';
 import './styles.sass';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Feedback from '../Feedback';
 import { Link } from 'react-router-dom';
 
-function AuthenticationComponent({ title, navigation, onLogin, onRegister, error }) {
+function AuthenticationComponent({ title, onLogin, onRegister, error }) {
 
     function submitHandler(event) {
         event.preventDefault();
@@ -23,8 +22,8 @@ function AuthenticationComponent({ title, navigation, onLogin, onRegister, error
             <p className="credentials__header">{title}</p>
             <div className="credentials__separator"></div>
             {title === "Registro" && <input type="text" name="fullname" className="credentials__input" placeholder="Pepito Grillo" required />}
-            <input type="text" name="email" className="credentials__input" placeholder="tu_email@mail.com" required />
-            <input type="password" name="password" className="credentials__input" placeholder="Tu contraseña" required />
+            <input type="text" name="email" className="credentials__input" placeholder="email@mail.com" required />
+            <input type="password" name="password" className="credentials__input" placeholder="password" required />
 
             {error && <Feedback feedback={error} />}
 

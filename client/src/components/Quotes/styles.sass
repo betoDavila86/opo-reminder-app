@@ -4,26 +4,64 @@
 .quote__container
     width: 90%
     margin: 2rem auto
-    background-color: $dark-blue
     border-radius: 5px
-    box-shadow: 0 12px 24px rgba(0,0,0,0.3)
     animation-name: moveInLeft
     animation-duration: 2s
     margin-bottom: 2rem
 
+    & *
+        color: $font-color-light
+
+.quote__top
+    display: flex
+    align-items: center
+    justify-content: space-between
+    background-color: $light-blue
+    position: relative
+    padding: 1.5rem 1rem
+
+.quote__img
+    padding: .4rem
+    border-radius: 50%
+    background-color: white
+    position: absolute
+    top: 4rem
+    left: 0rem
+
+.quote__title
+    text-align: center
+    font-size: 2rem
+    color: white
+
+.quote__date
+    align-self: flex-end
+    font-size: 15px
+    color: white
+    align-self: center
+
 .quote__message
     text-align: center
     padding: 1rem 0.5rem
-    line-height: 1.6
+    line-height: 1.5
     font-family: 'Spirax', cursive
-    font-size: 2.5rem
-    color: white
+    font-size: 1.75rem
 
 .quote__author
     text-align: right
     padding: .5rem 1rem
     font-weight: bold
     color: white
+
+.quote__tag
+    font-size: 14px
+    color: white
+
+.quote__bottom
+    display: flex
+    align-items: center
+    justify-content: space-between
+    background-color: $light-blue
+    border-radius: 0 0 .5rem .5rem
 
 @keyframes moveInLeft
     0%
