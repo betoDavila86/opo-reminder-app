@@ -3,7 +3,7 @@ import './styles.sass';
 import { Link, useHistory } from 'react-router-dom';
 import Button from '../commons/Button';
 import { UilSignout, UilSearchAlt, UilUser } from '@iconscout/react-unicons';
-import logo from '../../assets/img/opo-reminder.png'
+import logo from '../../assets/img/opo-reminder.png';
 
 const Header = ({ onSearch, user, onLogout }) => {
 
@@ -30,14 +30,14 @@ const Header = ({ onSearch, user, onLogout }) => {
                     <div className="header__user">
                         <div className="header__top-end">
                             <div>
-                                <p onClick={() => history.push('/')} className="header__welcome">Bienvenid@, {user.fullname.split(' ')[0]} </p><span className="header__top-end-icon"><UilUser /></span>
+                                <p onClick={() => history.push('/')} className="header__welcome">Bienvenid@, {user.fullname.split(' ')[0]} </p><span className="header__top-end-icon"><UilUser size="35" /></span>
                             </div>
-                            <Link to="/sign-in" className="header__logout" onClick={onLogout}><UilSignout size="30" className="header__logout-icon" /></Link>
+                            <Link to="/sign-in" className="header__logout" onClick={onLogout}><UilSignout size="40" className="header__logout-icon" /></Link>
                         </div>
                         <div className="header__search-container">
                             <form onSubmit={onSubmit} className="header__form">
                                 <input type='search' id="search" name='q' placeholder='Título del tema'></input>
-                                <Button className="button" type="submit"><UilSearchAlt size="25" /></Button>
+                                <Button className="button header__form-btn" type="submit"><UilSearchAlt size="30" /></Button>
                             </form>
                         </div>
                     </div>

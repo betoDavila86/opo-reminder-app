@@ -15,14 +15,14 @@ function PrioritySubjectsLinks({ onFilterSubjects }) {
                         to={`${match.path}?sort=knowledge`}
                         className="priority__option"
                         onClick={() => onFilterSubjects('by-knowledge')}>
-                        <p>Por prioridad</p><span><UilExclamationOctagon className="priority__option-icon" size="20" /></span>
+                        <p>Por prioridad</p><span><UilExclamationOctagon className="priority__option-icon" size="30" /></span>
                     </NavLink>
                     <NavLink
                         exact
                         to={`${match.path}?sort=date`}
                         className="priority__option"
                         onClick={() => onFilterSubjects('by-date')}>
-                        <p>Por fecha</p><span><UilSchedule className="priority__option-icon" size="20" /></span>
+                        <p>Por fecha</p><span><UilSchedule className="priority__option-icon" size="30" /></span>
                     </NavLink>
                 </ul>
             </div>

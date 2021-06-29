@@ -217,7 +217,6 @@ function App({ history }) {
     history.push(`/my-subjects/confirm/${subjectId}`)
   }
 
-
   return (
     <div className="App">
       <Wrapper>
@@ -226,8 +225,8 @@ function App({ history }) {
         <Route exact path="/" render={() => isAuth() ? <Redirect to="/home" /> : <Redirect to="/sign-in" />} />
         <Route path="/sign-in" render={() => isAuth() ? <Redirect to="/home" /> : <AuthenticationComponent title="Acceso" navigation={pageHandler} onLogin={loginHandler} error={feedback} />} />
         <Route path="/sign-up" render={() => isAuth() ? <Redirect to="/home" /> : <AuthenticationComponent title="Registro" navigation={pageHandler} onRegister={registerHandler} error={feedback} />} />
-        {user ? <Controls user={user} onRetrieveMySubjects={retrieveMySubjectsHandler} onFilterSubjects={filterSubjectsHandler} /> : null}
-        <Main>
+        {user ? <Controls user={user} onRetrieveMySubjects={retrieveMySubjectsHandler} onFilterSubjects={filterSubjectsHandler} onGoToHome={onGoHomeHandler} /> : null}
+        {user && <Main>
           <Switch>
             {loading && <Spinner />}
             {success && <Feedback message={feedback} onHideModal={feedbackHandler} warning={warning} />}
@@ -259,7 +258,7 @@ function App({ history }) {
               </Card>}
             </Route>
           </Switch>
-        </Main>
+        </Main>}
         <Footer />
       </Wrapper>
     </div >
