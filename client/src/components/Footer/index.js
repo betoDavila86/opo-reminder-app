@@ -9,7 +9,8 @@ const Footer = () => {
     return (
         <nav className="footer">
             <div className="footer__container">
-                <div>{`©️ ${date} Beto Dávila`}</div><span><a href="https://github.com/betoDavila86" target="_blank" rel="noreferrer"><Unicons.UilGithub size="40" className="footer__icon"/></a></span>
+                <div>{`©️ ${date} Beto Dávila`}</div>
+                <span><a href="https://github.com/betoDavila86" target="_blank" rel="noreferrer"><Unicons.UilGithub size="40" className="footer__icon"/></a></span>
                 <span><a href="https://www.linkedin.com/in/alberto-davila-gomez/" target="_blank" rel="noreferrer"><Unicons.UilLinkedin size="40" className="footer__icon"/></a></span>
             </div>
         </nav>

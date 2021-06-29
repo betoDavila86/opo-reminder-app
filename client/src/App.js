@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.sass';
+
 import Header from './components/Header';
 import Wrapper from './components/commons/Wrapper';
 import AuthenticationComponent from './components/commons/AuthenticationComponent';
@@ -18,6 +19,8 @@ import PrioritySubjectsLinks from './components/PrioritySubjects/PrioritySubject
 import RaffleForm from './components/Raffle/RaffleForm'
 import Footer from './components/Footer';
 import Main from './components/commons/Main';
+import Landing from './components/Landing';
+
 import { Route, withRouter, Redirect, Switch } from 'react-router-dom';
 
 import {
@@ -59,7 +62,7 @@ function App({ history }) {
         setLoading(false);
         history.push('/home');
       } else {
-        history.push('/sign-in');
+        history.push('/landing');
       }
     })();
   }, []);
@@ -221,8 +224,9 @@ function App({ history }) {
     <div className="App">
       <Wrapper>
         <Header user={user} onSearch={searchSubjectsHandler} navigation={pageHandler} onLogout={logoutHandler} onGoToHome={onGoHomeHandler} />
+        <Route path="/landing" render={() => isAuth() ? <Redirect to="/home" /> : <Landing />} />
         {error && <ErrorModal title="Error" message={feedback} onHideModal={modalHandler} />}
-        <Route exact path="/" render={() => isAuth() ? <Redirect to="/home" /> : <Redirect to="/sign-in" />} />
+        <Route exact path="/" render={() => isAuth() ? <Redirect to="/home" /> : <Redirect to="/landing" />} />
         <Route path="/sign-in" render={() => isAuth() ? <Redirect to="/home" /> : <AuthenticationComponent title="Acceso" navigation={pageHandler} onLogin={loginHandler} error={feedback} />} />
         <Route path="/sign-up" render={() => isAuth() ? <Redirect to="/home" /> : <AuthenticationComponent title="Registro" navigation={pageHandler} onRegister={registerHandler} error={feedback} />} />
         {user ? <Controls user={user} onRetrieveMySubjects={retrieveMySubjectsHandler} onFilterSubjects={filterSubjectsHandler} onGoToHome={onGoHomeHandler} /> : null}
