@@ -6970,3 +6970,26 @@ info 2021-06-24T07:48:51.611Z - starting server
 info 2021-06-24T07:48:52.213Z - server running on port 4000
 info 2021-06-29T09:30:36.015Z - starting server
 info 2021-06-29T09:30:36.525Z - server running on port 4000
+error 2021-06-30T13:39:39.556Z - MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.Connection.openUri (/Users/betodav/Desktop/clone/opo-reminder-app/server/node_modules/mongoose/lib/connection.js:694:11)
+    at /Users/betodav/Desktop/clone/opo-reminder-app/server/node_modules/mongoose/lib/index.js:350:10
+    at /Users/betodav/Desktop/clone/opo-reminder-app/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/betodav/Desktop/clone/opo-reminder-app/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (/Users/betodav/Desktop/clone/opo-reminder-app/server/node_modules/mongoose/lib/index.js:1154:10)
+    at Mongoose.connect (/Users/betodav/Desktop/clone/opo-reminder-app/server/node_modules/mongoose/lib/index.js:349:20)
+    at Object.<anonymous> (/Users/betodav/Desktop/clone/opo-reminder-app/server/index.js:12:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+info 2021-06-30T13:39:39.554Z - starting server
+info 2021-06-30T13:39:39.563Z - stopping server
+info 2021-06-30T13:40:50.643Z - starting server
+info 2021-06-30T13:40:51.161Z - server running on port 4000
+info 2021-06-30T13:43:07.047Z - stopping server
+info 2021-06-30T13:43:09.347Z - starting server
+info 2021-06-30T13:43:09.856Z - server running on port 4000
+info 2021-06-30T13:46:01.319Z - stopping server
