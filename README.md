@@ -1,3 +1,3 @@
 # OPO-REMINDER APP
 
-("Opo Reminder app")[https://opo-reminder.herokuapp.com]
+["Test opo reminder"](https://opo-reminder.herokuapp.com "Opo Reminder app")
