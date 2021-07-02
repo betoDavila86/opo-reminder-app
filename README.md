@@ -1,3 +1,3 @@
 # OPO-REMINDER APP
 
-opo-reminder.herokuapp.com
+(Opo Reminder app)[https://opo-reminder.herokuapp.com]
